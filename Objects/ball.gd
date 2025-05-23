@@ -1,7 +1,7 @@
 extends RigidBody2D
 
 var team: String = "blue";
-
+@onready var colorRect: ColorRect = $BallView;
 
 func _ready():
 	apply_team_color()
@@ -9,9 +9,9 @@ func _ready():
 func apply_team_color():
 	match team:
 		"blue":
-			$Sprite2D.modulate = Color(0.0, 0.5, 1.0)
+			colorRect.color = Color(0.0, 0.5, 1.0)
 		"red":
-			$Sprite2D.modulate = Color(1.0, 0.2, 0.2)
+			colorRect.color = Color(1.0, 0.2, 0.2)
 
 func configure(team_name: String, bounce_value: float, gravity: float):
 	team = team_name
