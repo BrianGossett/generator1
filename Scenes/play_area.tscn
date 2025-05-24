@@ -1,0 +1,29 @@
+[gd_scene load_steps=3 format=3 uid="uid://bqsxp82r57fyr"]
+
+[ext_resource type="PackedScene" uid="uid://bmi2pr5jgtfxt" path="res://Objects/cannon.tscn" id="1_ybnwo"]
+[ext_resource type="PackedScene" uid="uid://b00bly7rec4us" path="res://Objects/box.tscn" id="2_jf5ke"]
+
+[node name="PlayArea" type="Node2D"]
+
+[node name="Cannon" parent="." instance=ExtResource("1_ybnwo")]
+position = Vector2(151, 353)
+
+[node name="Box" parent="." instance=ExtResource("2_jf5ke")]
+offset_left = 386.0
+offset_top = 317.0
+offset_right = 418.0
+offset_bottom = 349.0
+team = 0
+
+[node name="Box2" parent="." instance=ExtResource("2_jf5ke")]
+offset_left = 457.0
+offset_top = 323.0
+offset_right = 489.0
+offset_bottom = 355.0
+
+[node name="Box3" parent="." instance=ExtResource("2_jf5ke")]
+offset_left = 577.0
+offset_top = 328.0
+offset_right = 609.0
+offset_bottom = 360.0
+team = 1

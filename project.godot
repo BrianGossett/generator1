@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="generator1"
-run/main_scene="uid://band7deosc375"
+run/main_scene="uid://bqsxp82r57fyr"
 config/features=PackedStringArray("4.4", "GL Compatibility")
 config/icon="res://icon.svg"
 
@@ -22,6 +22,8 @@ GameInfo="*res://Scripts/GameInfo.gd"
 [global_group]
 
 Ball=""
+Box=""
+Orb=""
 
 [rendering]
 
