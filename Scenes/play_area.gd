@@ -4,7 +4,6 @@ extends Node2D
 
 
 @onready var screen_fade = $ScreenFade
-@onready var fade_tween = get_tree().create_tween()
 
 
 var has_winner := false
