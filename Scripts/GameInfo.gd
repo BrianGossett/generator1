@@ -6,8 +6,8 @@ const TEAM_BLUE = 1
 
 # Stores the current bank value for each team (starts at 1)
 var bank_value = {
-	TEAM_RED: 1,
-	TEAM_BLUE: 1
+	TEAM_RED: 2,
+	TEAM_BLUE: 2
 }
 
 

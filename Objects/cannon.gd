@@ -43,7 +43,7 @@ func emit_orb(number):
 
 
 func _on_shoot_timer_timeout() -> void:
-	if GameInfo.fire_value[team] > 0:
+	if GameInfo.fire_value[team] > 0 and GameInfo.victory_value[team]:
 		if GameInfo.fire_value[team] > 1000:
 			emit_orb(15)
 		elif GameInfo.fire_value[team] > 100:

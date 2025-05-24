@@ -7851,7 +7851,7 @@ position = Vector2(960.5, 15)
 shape = SubResource("RectangleShape2D_ybnwo")
 
 [node name="Timer" type="Timer" parent="."]
-wait_time = 30.0
+wait_time = 180.0
 autostart = true
 
 [node name="ScreenFade" type="ColorRect" parent="."]

@@ -38,7 +38,7 @@ func _on_score_1_body_entered(body: Node2D) -> void:
 func _on_score_2_body_entered(body: Node2D) -> void:
 	if(body.get_groups().has("Ball")):
 		GameInfo.fire_value[team] += GameInfo.bank_value[team]
-		GameInfo.bank_value[team] = 1
+		GameInfo.bank_value[team] = 2
 		updateLables()
 		body.queue_free()
 		call_deferred("BallSpawn", 1)
