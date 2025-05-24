@@ -1,7 +1,7 @@
 [gd_scene load_steps=11 format=3 uid="uid://band7deosc375"]
 
 [ext_resource type="PackedScene" uid="uid://bo61chu5rcf5g" path="res://Objects/peg.tscn" id="1_pwi2o"]
-[ext_resource type="PackedScene" uid="uid://sqpko26yo2gf" path="res://Objects/ball.tscn" id="2_vwlxq"]
+[ext_resource type="Script" uid="uid://dkiylqtfy1cqh" path="res://Objects/generator.gd" id="1_vwlxq"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_0q5sr"]
 size = Vector2(318, 29)
@@ -10,19 +10,19 @@ size = Vector2(318, 29)
 size = Vector2(319.5, 12)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_pwi2o"]
-size = Vector2(29, 1079)
+size = Vector2(24, 1079)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_vwlxq"]
-size = Vector2(28, 1077)
+size = Vector2(24, 1077)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_8n24x"]
 size = Vector2(16, 93)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_h7lws"]
-size = Vector2(135, 72)
+size = Vector2(140, 72)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_njrjh"]
-size = Vector2(114, 71)
+size = Vector2(118, 71)
 
 [sub_resource type="Environment" id="Environment_j3qtk"]
 background_mode = 3
@@ -31,6 +31,7 @@ glow_bloom = 0.3
 glow_hdr_luminance_cap = 78.5
 
 [node name="Generator" type="Node2D"]
+script = ExtResource("1_vwlxq")
 
 [node name="Background" type="ColorRect" parent="."]
 offset_right = 320.0
@@ -70,13 +71,13 @@ color = Color(0.393086, 0.393086, 0.393085, 1)
 position = Vector2(-1, 5)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Walls/LeftWall"]
-position = Vector2(15.5, 535.5)
+position = Vector2(13, 535.5)
 shape = SubResource("RectangleShape2D_pwi2o")
 
 [node name="ColorRect" type="ColorRect" parent="Walls/LeftWall"]
 offset_left = 1.0
 offset_top = -3.0
-offset_right = 31.0
+offset_right = 26.0
 offset_bottom = 1075.0
 color = Color(0.393086, 0.393086, 0.393085, 1)
 
@@ -95,16 +96,16 @@ offset_bottom = 12.0
 color = Color(0.393086, 0.393086, 0.393085, 1)
 
 [node name="RightWall" type="StaticBody2D" parent="Walls"]
-position = Vector2(290, 0)
+position = Vector2(294, 0)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Walls/RightWall"]
-position = Vector2(15, 540.5)
+position = Vector2(13, 540.5)
 shape = SubResource("RectangleShape2D_vwlxq")
 
 [node name="ColorRect" type="ColorRect" parent="Walls/RightWall"]
 offset_left = 1.0
 offset_top = 1.0
-offset_right = 31.0
+offset_right = 26.0
 offset_bottom = 1080.0
 color = Color(0.393086, 0.393086, 0.393085, 1)
 
@@ -220,26 +221,23 @@ scale = Vector2(1.5, 1.5)
 position = Vector2(195, 570)
 scale = Vector2(1.5, 1.5)
 
-[node name="Ball" parent="." instance=ExtResource("2_vwlxq")]
-position = Vector2(91, 70)
-
 [node name="Score1" type="Area2D" parent="."]
 position = Vector2(78, 733)
 
 [node name="Score1Collision" type="CollisionShape2D" parent="Score1"]
-position = Vector2(19.5, 3)
+position = Vector2(17, 3)
 shape = SubResource("RectangleShape2D_h7lws")
 
 [node name="ColorRect" type="ColorRect" parent="Score1"]
 modulate = Color(2, 2, 1, 1)
-offset_left = -49.0
+offset_left = -53.0
 offset_top = -33.0
 offset_right = 88.0
 offset_bottom = 40.0
 color = Color(1, 1, 0, 0.862745)
 
 [node name="Label" type="Label" parent="Score1"]
-offset_left = -48.0
+offset_left = -53.0
 offset_top = -33.0
 offset_right = 87.0
 offset_bottom = 38.0
@@ -253,21 +251,21 @@ vertical_alignment = 1
 position = Vector2(228, 733)
 
 [node name="Score1Collision" type="CollisionShape2D" parent="Score2"]
-position = Vector2(6, 2.5)
+position = Vector2(8, 2.5)
 shape = SubResource("RectangleShape2D_njrjh")
 
 [node name="ColorRect" type="ColorRect" parent="Score2"]
 modulate = Color(2, 0, 1.4, 1)
 offset_left = -47.0
 offset_top = -33.0
-offset_right = 63.0
+offset_right = 68.0
 offset_bottom = 39.0
 color = Color(1, 0, 0.737255, 0.835294)
 
 [node name="Label" type="Label" parent="Score2"]
 offset_left = -48.0
 offset_top = -33.0
-offset_right = 63.0
+offset_right = 67.0
 offset_bottom = 38.0
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_font_sizes/font_size = 50
@@ -289,7 +287,7 @@ text = "0"
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="Values" type="Label" parent="."]
+[node name="Values" type="Label" parent="." groups=["Ball"]]
 offset_left = 30.0
 offset_top = 782.0
 offset_right = 290.0
@@ -298,3 +296,12 @@ theme_override_font_sizes/font_size = 100
 text = "1"
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="BallSpawnerTopLeft" type="Marker2D" parent="."]
+position = Vector2(46, 47)
+
+[node name="BallSpawnerBottomRight" type="Marker2D" parent="."]
+position = Vector2(277, 128)
+
+[connection signal="body_entered" from="Score1" to="." method="_on_score_1_body_entered"]
+[connection signal="body_entered" from="Score2" to="." method="_on_score_2_body_entered"]
