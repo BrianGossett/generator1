@@ -6,16 +6,16 @@ extends Node2D
 @export var arc_angle_deg: float = 90.0  # Total arc in degrees
 @export var orb_scene: PackedScene = preload('res://Objects/orb.tscn') # assign res://Objects/ball.tscn in the Inspector
 
+var angle_offset := 0.0
+var base_rotation := 0.0
 
 @onready var base: ColorRect = $Base;
 @onready var pipe: ColorRect = $Pipe;
 
-var angle_offset := 0.0
 
 func _ready():
 	apply_team_color()
-	
-	GameInfo.fire_value[team] = 100
+	base_rotation = rotation 
 
 func apply_team_color():
 	var color = GameInfo.team_color(team);
@@ -25,7 +25,7 @@ func apply_team_color():
 func _process(delta):
 	angle_offset += delta * rotation_speed
 	var angle_rad = deg_to_rad(arc_angle_deg / 2.0) * sin(angle_offset)
-	rotation = angle_rad
+	rotation = base_rotation + angle_rad
 
 
 

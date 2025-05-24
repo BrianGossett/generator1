@@ -38,186 +38,187 @@ offset_right = 320.0
 offset_bottom = 1080.0
 color = Color(0, 0, 0, 1)
 
-[node name="Walls" type="Node" parent="."]
+[node name="Wall" type="Node2D" parent="."]
 
-[node name="UperWall" type="StaticBody2D" parent="Walls"]
+[node name="UperWall" type="StaticBody2D" parent="Wall"]
+position = Vector2(0, -1)
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Walls/UperWall"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Wall/UperWall"]
 position = Vector2(160, 15.5)
 shape = SubResource("RectangleShape2D_0q5sr")
 
-[node name="ColorRect" type="ColorRect" parent="Walls/UperWall"]
+[node name="ColorRect" type="ColorRect" parent="Wall/UperWall"]
 offset_left = 1.0
 offset_top = 1.0
 offset_right = 320.0
 offset_bottom = 31.0
 color = Color(0.393086, 0.393086, 0.393085, 1)
 
-[node name="BottomWall" type="StaticBody2D" parent="Walls"]
+[node name="BottomWall" type="StaticBody2D" parent="Wall"]
 position = Vector2(0, 1049)
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Walls/BottomWall"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Wall/BottomWall"]
 position = Vector2(160.25, 6)
 shape = SubResource("RectangleShape2D_uuc11")
 
-[node name="ColorRect" type="ColorRect" parent="Walls/BottomWall"]
+[node name="ColorRect" type="ColorRect" parent="Wall/BottomWall"]
 offset_left = 1.0
 offset_top = 1.0
 offset_right = 320.0
 offset_bottom = 31.0
 color = Color(0.393086, 0.393086, 0.393085, 1)
 
-[node name="LeftWall" type="StaticBody2D" parent="Walls"]
+[node name="LeftWall" type="StaticBody2D" parent="Wall"]
 position = Vector2(-1, 5)
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Walls/LeftWall"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Wall/LeftWall"]
 position = Vector2(13, 535.5)
 shape = SubResource("RectangleShape2D_pwi2o")
 
-[node name="ColorRect" type="ColorRect" parent="Walls/LeftWall"]
+[node name="ColorRect" type="ColorRect" parent="Wall/LeftWall"]
 offset_left = 1.0
-offset_top = -3.0
+offset_top = -5.0
 offset_right = 26.0
 offset_bottom = 1075.0
 color = Color(0.393086, 0.393086, 0.393085, 1)
 
-[node name="MidDivider" type="StaticBody2D" parent="Walls"]
+[node name="MidDivider" type="StaticBody2D" parent="Wall"]
 position = Vector2(0, 770)
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Walls/MidDivider"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Wall/MidDivider"]
 position = Vector2(160.25, 6)
 shape = SubResource("RectangleShape2D_uuc11")
 
-[node name="ColorRect" type="ColorRect" parent="Walls/MidDivider"]
+[node name="ColorRect" type="ColorRect" parent="Wall/MidDivider"]
 offset_left = 1.0
 offset_top = 1.0
 offset_right = 320.0
 offset_bottom = 12.0
 color = Color(0.393086, 0.393086, 0.393085, 1)
 
-[node name="RightWall" type="StaticBody2D" parent="Walls"]
+[node name="RightWall" type="StaticBody2D" parent="Wall"]
 position = Vector2(294, 0)
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Walls/RightWall"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Wall/RightWall"]
 position = Vector2(13, 540.5)
 shape = SubResource("RectangleShape2D_vwlxq")
 
-[node name="ColorRect" type="ColorRect" parent="Walls/RightWall"]
+[node name="ColorRect" type="ColorRect" parent="Wall/RightWall"]
 offset_left = 1.0
 offset_top = 1.0
 offset_right = 26.0
 offset_bottom = 1080.0
 color = Color(0.393086, 0.393086, 0.393085, 1)
 
-[node name="ScoreDivider" type="StaticBody2D" parent="Walls"]
+[node name="ScoreDivider" type="StaticBody2D" parent="Wall"]
 position = Vector2(75, 735)
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Walls/ScoreDivider"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Wall/ScoreDivider"]
 position = Vector2(98, -11.5)
 shape = SubResource("RectangleShape2D_8n24x")
 
-[node name="ColorRect" type="ColorRect" parent="Walls/ScoreDivider"]
+[node name="ColorRect" type="ColorRect" parent="Wall/ScoreDivider"]
 offset_left = 90.0
 offset_top = -58.0
 offset_right = 106.0
 offset_bottom = 36.0
 color = Color(0.393086, 0.393086, 0.393085, 1)
 
-[node name="Pegs" type="Node" parent="."]
+[node name="Peg" type="Node2D" parent="."]
 
-[node name="peg3Row" type="Node" parent="Pegs"]
+[node name="pegRow1" type="Node2D" parent="Peg"]
 
-[node name="Peg2" parent="Pegs/peg3Row" instance=ExtResource("1_pwi2o")]
+[node name="Peg2" parent="Peg/pegRow1" instance=ExtResource("1_pwi2o")]
 position = Vector2(160, 170)
 scale = Vector2(1.5, 1.5)
 
-[node name="Peg" parent="Pegs/peg3Row" instance=ExtResource("1_pwi2o")]
+[node name="Peg" parent="Peg/pegRow1" instance=ExtResource("1_pwi2o")]
 position = Vector2(90, 170)
 scale = Vector2(1.5, 1.5)
 
-[node name="Peg3" parent="Pegs/peg3Row" instance=ExtResource("1_pwi2o")]
+[node name="Peg3" parent="Peg/pegRow1" instance=ExtResource("1_pwi2o")]
 position = Vector2(230, 170)
 scale = Vector2(1.5, 1.5)
 
-[node name="peg4Row" type="Node" parent="Pegs"]
+[node name="pegRow2" type="Node2D" parent="Peg"]
 
-[node name="Peg2" parent="Pegs/peg4Row" instance=ExtResource("1_pwi2o")]
+[node name="Peg2" parent="Peg/pegRow2" instance=ExtResource("1_pwi2o")]
 position = Vector2(125, 250)
 scale = Vector2(1.5, 1.5)
 
-[node name="Peg" parent="Pegs/peg4Row" instance=ExtResource("1_pwi2o")]
+[node name="Peg" parent="Peg/pegRow2" instance=ExtResource("1_pwi2o")]
 position = Vector2(65, 250)
 scale = Vector2(1.5, 1.5)
 
-[node name="Peg3" parent="Pegs/peg4Row" instance=ExtResource("1_pwi2o")]
+[node name="Peg3" parent="Peg/pegRow2" instance=ExtResource("1_pwi2o")]
 position = Vector2(255, 250)
 scale = Vector2(1.5, 1.5)
 
-[node name="Peg4" parent="Pegs/peg4Row" instance=ExtResource("1_pwi2o")]
+[node name="Peg4" parent="Peg/pegRow2" instance=ExtResource("1_pwi2o")]
 position = Vector2(195, 250)
 scale = Vector2(1.5, 1.5)
 
-[node name="peg3Row2" type="Node" parent="Pegs"]
+[node name="pegRow3" type="Node2D" parent="Peg"]
 
-[node name="Peg2" parent="Pegs/peg3Row2" instance=ExtResource("1_pwi2o")]
+[node name="Peg2" parent="Peg/pegRow3" instance=ExtResource("1_pwi2o")]
 position = Vector2(160, 330)
 scale = Vector2(1.5, 1.5)
 
-[node name="Peg" parent="Pegs/peg3Row2" instance=ExtResource("1_pwi2o")]
+[node name="Peg" parent="Peg/pegRow3" instance=ExtResource("1_pwi2o")]
 position = Vector2(90, 330)
 scale = Vector2(1.5, 1.5)
 
-[node name="Peg3" parent="Pegs/peg3Row2" instance=ExtResource("1_pwi2o")]
+[node name="Peg3" parent="Peg/pegRow3" instance=ExtResource("1_pwi2o")]
 position = Vector2(230, 330)
 scale = Vector2(1.5, 1.5)
 
-[node name="peg4Row2" type="Node" parent="Pegs"]
+[node name="pegRow4" type="Node2D" parent="Peg"]
 
-[node name="Peg2" parent="Pegs/peg4Row2" instance=ExtResource("1_pwi2o")]
+[node name="Peg2" parent="Peg/pegRow4" instance=ExtResource("1_pwi2o")]
 position = Vector2(125, 410)
 scale = Vector2(1.5, 1.5)
 
-[node name="Peg" parent="Pegs/peg4Row2" instance=ExtResource("1_pwi2o")]
+[node name="Peg" parent="Peg/pegRow4" instance=ExtResource("1_pwi2o")]
 position = Vector2(65, 410)
 scale = Vector2(1.5, 1.5)
 
-[node name="Peg3" parent="Pegs/peg4Row2" instance=ExtResource("1_pwi2o")]
+[node name="Peg3" parent="Peg/pegRow4" instance=ExtResource("1_pwi2o")]
 position = Vector2(255, 410)
 scale = Vector2(1.5, 1.5)
 
-[node name="Peg4" parent="Pegs/peg4Row2" instance=ExtResource("1_pwi2o")]
+[node name="Peg4" parent="Peg/pegRow4" instance=ExtResource("1_pwi2o")]
 position = Vector2(195, 410)
 scale = Vector2(1.5, 1.5)
 
-[node name="peg3Row3" type="Node" parent="Pegs"]
+[node name="pegRow5" type="Node2D" parent="Peg"]
 
-[node name="Peg2" parent="Pegs/peg3Row3" instance=ExtResource("1_pwi2o")]
+[node name="Peg2" parent="Peg/pegRow5" instance=ExtResource("1_pwi2o")]
 position = Vector2(160, 490)
 scale = Vector2(1.5, 1.5)
 
-[node name="Peg" parent="Pegs/peg3Row3" instance=ExtResource("1_pwi2o")]
+[node name="Peg" parent="Peg/pegRow5" instance=ExtResource("1_pwi2o")]
 position = Vector2(90, 490)
 scale = Vector2(1.5, 1.5)
 
-[node name="Peg3" parent="Pegs/peg3Row3" instance=ExtResource("1_pwi2o")]
+[node name="Peg3" parent="Peg/pegRow5" instance=ExtResource("1_pwi2o")]
 position = Vector2(230, 490)
 scale = Vector2(1.5, 1.5)
 
-[node name="peg4Row3" type="Node" parent="Pegs"]
+[node name="pegRow6" type="Node2D" parent="Peg"]
 
-[node name="Peg2" parent="Pegs/peg4Row3" instance=ExtResource("1_pwi2o")]
+[node name="Peg2" parent="Peg/pegRow6" instance=ExtResource("1_pwi2o")]
 position = Vector2(125, 570)
 scale = Vector2(1.5, 1.5)
 
-[node name="Peg" parent="Pegs/peg4Row3" instance=ExtResource("1_pwi2o")]
+[node name="Peg" parent="Peg/pegRow6" instance=ExtResource("1_pwi2o")]
 position = Vector2(65, 570)
 scale = Vector2(1.5, 1.5)
 
-[node name="Peg3" parent="Pegs/peg4Row3" instance=ExtResource("1_pwi2o")]
+[node name="Peg3" parent="Peg/pegRow6" instance=ExtResource("1_pwi2o")]
 position = Vector2(255, 570)
 scale = Vector2(1.5, 1.5)
 
-[node name="Peg4" parent="Pegs/peg4Row3" instance=ExtResource("1_pwi2o")]
+[node name="Peg4" parent="Peg/pegRow6" instance=ExtResource("1_pwi2o")]
 position = Vector2(195, 570)
 scale = Vector2(1.5, 1.5)
 
