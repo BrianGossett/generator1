@@ -17,3 +17,7 @@ func configure(team_id: int, bounciness: float = 1.0):
 func update_visual():
 	var color = TEAM_COLORS.get(team, Color.GRAY)
 	$OrbColor.color = color
+
+
+func _on_timer_timeout() -> void:
+	self.queue_free()

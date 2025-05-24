@@ -22,6 +22,9 @@ func _ready():
 	min_y = ballBottomRight.position.y
 	max_y = ballTopLeft.position.y
 	BallSpawn(6)
+	
+func _process(delta: float) -> void:
+	updateLables()
 
 
 func _on_score_1_body_entered(body: Node2D) -> void:

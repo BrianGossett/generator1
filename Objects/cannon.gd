@@ -29,16 +29,21 @@ func _process(delta):
 
 
 
-func emit_orb():
-	var orb = orb_scene.instantiate()
-	var direction = global_transform.x.normalized()
-	orb.position = $Fire_Point.global_position
-	get_tree().current_scene.add_child(orb)
-	orb.configure(team, 1)
-	orb.call_deferred("apply_central_impulse", direction * 400)
+func emit_orb(number):
+	for i in range(number):
+		var orb = orb_scene.instantiate()
+		var direction = global_transform.x.normalized()
+		orb.position = $Fire_Point.global_position
+		get_tree().current_scene.add_child(orb)
+		orb.configure(team, 1)
+		orb.call_deferred("apply_central_impulse", direction * 400)
 
 
 func _on_shoot_timer_timeout() -> void:
 	if GameInfo.fire_value[team] > 0:
-		emit_orb()
-		GameInfo.fire_value[team] -= 1
+		if GameInfo.fire_value[team] > 100:
+			emit_orb(5)
+			GameInfo.fire_value[team] -= 5
+		else:
+			emit_orb(1)
+			GameInfo.fire_value[team] -= 1

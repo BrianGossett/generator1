@@ -21,6 +21,7 @@ offset_bottom = 31.0
 color = Color(0, 0, 0, 1)
 
 [node name="BoxArea" type="Area2D" parent="."]
+collision_mask = 3
 
 [node name="BoxCol" type="CollisionShape2D" parent="BoxArea" groups=["Box"]]
 position = Vector2(16, 16)

@@ -9,6 +9,7 @@
 shader = ExtResource("1_brd2u")
 
 [node name="Orb" type="RigidBody2D" groups=["Orb"]]
+collision_layer = 2
 script = ExtResource("1_fehja")
 
 [node name="OrbCollision" type="CollisionShape2D" parent="."]
@@ -20,3 +21,9 @@ offset_left = -10.0
 offset_top = -10.0
 offset_right = 10.0
 offset_bottom = 10.0
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 5.0
+autostart = true
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
