@@ -16,7 +16,7 @@ func fade_to_color(color: Color, duration := 1.5):
 	tween.tween_property(screen_fade, "color:a", 1.0, duration)
 	tween.tween_callback(Callable(self, "_on_fade_complete"))
 
-func _physics_process(delta: float) -> void:
+func _process(_delta) -> void:
 	checkWin()
 
 func _on_fade_complete():

@@ -38,7 +38,7 @@ func emit_orb(number):
 		orb.configure(team, 1)
 		orb.call_deferred("apply_central_impulse", direction * 400)
 		GameInfo.fire_value[team] -= 1
-		await get_tree().create_timer(0.02).timeout  # slight delay between each shot
+		await get_tree().create_timer(0.02).timeout
 
 
 
