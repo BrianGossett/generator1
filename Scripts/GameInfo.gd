@@ -10,6 +10,14 @@ var bank_value = {
 	TEAM_BLUE: 1
 }
 
+
+# Stores the current bank value for each team (starts at 1)
+var victory_value = {
+	TEAM_RED: true,
+	TEAM_BLUE: true
+}
+
+
 # Stores the current fire value for each team (starts at 0)
 var fire_value = {
 	TEAM_RED: 0,

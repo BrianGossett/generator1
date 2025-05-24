@@ -4,6 +4,7 @@ extends ColorRect
 @onready var outline = self
 
 @export var team: int = -1  # -1 = neutral, 0 = red, 1 = blue
+@export var victory: bool = false
 
 const COLORS = {
 	-1: Color.BLACK,
@@ -35,4 +36,6 @@ func _on_box_area_body_entered(body: Node2D) -> void:
 		if (body.team != team):
 			team = body.team
 			update_colors()
+			if (victory):
+				GameInfo.victory_value[team] = false
 			body.queue_free()
