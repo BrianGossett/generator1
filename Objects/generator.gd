@@ -10,39 +10,26 @@ extends Node2D
 
 var ballSpawner = preload("res://Objects/ball.tscn")
 
-
 var min_x
 var max_x
 var min_y
 var max_y
+
 
 func _ready():
 	min_x = ballTopLeft.position.x
 	max_x = ballBottomRight.position.x
 	min_y = ballBottomRight.position.y
 	max_y = ballTopLeft.position.y
-	BallSpawn()
-	BallSpawn()
-	BallSpawn()
-	BallSpawn()
-	BallSpawn()
-	BallSpawn()
+	BallSpawn(6)
 
-func BallSpawn():
-	var spawn_x = randf_range(min_x, max_x)
-	var spawn_y = randf_range(min_y, max_y)
-	var ball = ballSpawner.instantiate()
-	bank.add_theme_color_override('font_color',GameInfo.team_color(team));
-	ball.position = Vector2(spawn_x, spawn_y)
-	ball.configure(team,1,.2);
-	add_child(ball)
 
 func _on_score_1_body_entered(body: Node2D) -> void:
 	if(body.get_groups().has("Ball")):
 		GameInfo.bank_value[team] *= 2
 		updateLables()
 		body.queue_free()
-		BallSpawn()
+		call_deferred("BallSpawn", 1)
 
 
 func _on_score_2_body_entered(body: Node2D) -> void:
@@ -51,8 +38,20 @@ func _on_score_2_body_entered(body: Node2D) -> void:
 		GameInfo.bank_value[team] = 1
 		updateLables()
 		body.queue_free()
-		BallSpawn()
-		
+		call_deferred("BallSpawn", 1)
+
+
+func BallSpawn(number):
+	for i in range(number):
+		var spawn_x = randf_range(min_x, max_x)
+		var spawn_y = randf_range(min_y, max_y)
+		var ball = ballSpawner.instantiate()
+		bank.add_theme_color_override('font_color',GameInfo.team_color(team));
+		ball.position = Vector2(spawn_x, spawn_y)
+		ball.configure(team,1,.2);
+		add_child(ball)
+
+
 func updateLables():
 	bank.text = str(GameInfo.bank_value[team])
 	fireValue.text = str(GameInfo.fire_value[team])
