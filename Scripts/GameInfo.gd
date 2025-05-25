@@ -28,9 +28,9 @@ func team_color(team):
 	var color: Color;
 	match team:
 		0:
-			color = Color(0, 0.75, 1.0)
-		1:
 			color = Color(1.0, 0, 0)
+		1:
+			color = Color(0, 0.75, 1.0)
 	return color;
 
 # Optional: Reset function to use when restarting

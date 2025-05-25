@@ -2,7 +2,7 @@ extends Node2D
 
 
 @export var team: int = 0;
-@export var rotation_speed: float = 1.0  # Controls speed of sweep
+@export var rotation_speed: float = 0.25  # Controls speed of sweep
 @export var arc_angle_deg: float = 90.0  # Total arc in degrees
 @export var orb_scene: PackedScene = preload('res://Objects/orb.tscn') # assign res://Objects/ball.tscn in the Inspector
 
@@ -24,9 +24,12 @@ func apply_team_color():
 
 func _process(delta):
 	angle_offset += delta * rotation_speed
-	var angle_rad = deg_to_rad(arc_angle_deg / 2.0) * sin(angle_offset)
-	rotation = base_rotation + angle_rad
 
+	var t := fmod(angle_offset, 1.0)
+	var tri_wave = abs(2.0 * t - 1.0)  # triangle wave between 0 and 1
+	var angle_rad = deg_to_rad(arc_angle_deg / 2.0) * (1.0 - tri_wave * 2.0)
+
+	rotation = base_rotation + angle_rad
 
 
 func emit_orb(number,time):
