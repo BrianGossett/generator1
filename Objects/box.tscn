@@ -18,7 +18,7 @@ offset_left = 1.0
 offset_top = 1.0
 offset_right = 31.0
 offset_bottom = 31.0
-color = Color(0, 0, 0, 1)
+color = Color(0, 0, 0, 0.941176)
 
 [node name="BoxArea" type="Area2D" parent="."]
 collision_mask = 3

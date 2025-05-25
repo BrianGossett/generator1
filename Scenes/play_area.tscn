@@ -38,108 +38,127 @@ offset_left = 64.0
 offset_top = -32.0
 offset_right = 96.0
 offset_bottom = 0.0
+team = 0
+victory = true
 
 [node name="Box4" parent="Field/Row" instance=ExtResource("2_jf5ke")]
 offset_left = 96.0
 offset_top = -32.0
 offset_right = 128.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box5" parent="Field/Row" instance=ExtResource("2_jf5ke")]
 offset_left = 128.0
 offset_top = -32.0
 offset_right = 160.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box6" parent="Field/Row" instance=ExtResource("2_jf5ke")]
 offset_left = 160.0
 offset_top = -32.0
 offset_right = 192.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box7" parent="Field/Row" instance=ExtResource("2_jf5ke")]
 offset_left = 192.0
 offset_top = -32.0
 offset_right = 224.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box8" parent="Field/Row" instance=ExtResource("2_jf5ke")]
 offset_left = 224.0
 offset_top = -32.0
 offset_right = 256.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box9" parent="Field/Row" instance=ExtResource("2_jf5ke")]
 offset_left = 256.0
 offset_top = -32.0
 offset_right = 288.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box10" parent="Field/Row" instance=ExtResource("2_jf5ke")]
 offset_left = 288.0
 offset_top = -32.0
 offset_right = 320.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box11" parent="Field/Row" instance=ExtResource("2_jf5ke")]
 offset_left = 320.0
 offset_top = -32.0
 offset_right = 352.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box12" parent="Field/Row" instance=ExtResource("2_jf5ke")]
 offset_left = 352.0
 offset_top = -32.0
 offset_right = 384.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box13" parent="Field/Row" instance=ExtResource("2_jf5ke")]
 offset_left = 384.0
 offset_top = -32.0
 offset_right = 416.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box14" parent="Field/Row" instance=ExtResource("2_jf5ke")]
 offset_left = 416.0
 offset_top = -32.0
 offset_right = 448.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box15" parent="Field/Row" instance=ExtResource("2_jf5ke")]
 offset_left = 448.0
 offset_top = -32.0
 offset_right = 480.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box16" parent="Field/Row" instance=ExtResource("2_jf5ke")]
 offset_left = 480.0
 offset_top = -32.0
 offset_right = 512.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box17" parent="Field/Row" instance=ExtResource("2_jf5ke")]
 offset_left = 512.0
 offset_top = -32.0
 offset_right = 544.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box18" parent="Field/Row" instance=ExtResource("2_jf5ke")]
 offset_left = 544.0
 offset_top = -32.0
 offset_right = 576.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box19" parent="Field/Row" instance=ExtResource("2_jf5ke")]
 offset_left = 576.0
 offset_top = -32.0
 offset_right = 608.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box20" parent="Field/Row" instance=ExtResource("2_jf5ke")]
 offset_left = 608.0
 offset_top = -32.0
 offset_right = 640.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box21" parent="Field/Row" instance=ExtResource("2_jf5ke")]
 offset_left = 640.0
@@ -285,108 +304,127 @@ offset_left = 64.0
 offset_top = -32.0
 offset_right = 96.0
 offset_bottom = 0.0
+team = 0
+victory = true
 
 [node name="Box4" parent="Field/Row2" instance=ExtResource("2_jf5ke")]
 offset_left = 96.0
 offset_top = -32.0
 offset_right = 128.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box5" parent="Field/Row2" instance=ExtResource("2_jf5ke")]
 offset_left = 128.0
 offset_top = -32.0
 offset_right = 160.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box6" parent="Field/Row2" instance=ExtResource("2_jf5ke")]
 offset_left = 160.0
 offset_top = -32.0
 offset_right = 192.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box7" parent="Field/Row2" instance=ExtResource("2_jf5ke")]
 offset_left = 192.0
 offset_top = -32.0
 offset_right = 224.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box8" parent="Field/Row2" instance=ExtResource("2_jf5ke")]
 offset_left = 224.0
 offset_top = -32.0
 offset_right = 256.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box9" parent="Field/Row2" instance=ExtResource("2_jf5ke")]
 offset_left = 256.0
 offset_top = -32.0
 offset_right = 288.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box10" parent="Field/Row2" instance=ExtResource("2_jf5ke")]
 offset_left = 288.0
 offset_top = -32.0
 offset_right = 320.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box11" parent="Field/Row2" instance=ExtResource("2_jf5ke")]
 offset_left = 320.0
 offset_top = -32.0
 offset_right = 352.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box12" parent="Field/Row2" instance=ExtResource("2_jf5ke")]
 offset_left = 352.0
 offset_top = -32.0
 offset_right = 384.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box13" parent="Field/Row2" instance=ExtResource("2_jf5ke")]
 offset_left = 384.0
 offset_top = -32.0
 offset_right = 416.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box14" parent="Field/Row2" instance=ExtResource("2_jf5ke")]
 offset_left = 416.0
 offset_top = -32.0
 offset_right = 448.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box15" parent="Field/Row2" instance=ExtResource("2_jf5ke")]
 offset_left = 448.0
 offset_top = -32.0
 offset_right = 480.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box16" parent="Field/Row2" instance=ExtResource("2_jf5ke")]
 offset_left = 480.0
 offset_top = -32.0
 offset_right = 512.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box17" parent="Field/Row2" instance=ExtResource("2_jf5ke")]
 offset_left = 512.0
 offset_top = -32.0
 offset_right = 544.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box18" parent="Field/Row2" instance=ExtResource("2_jf5ke")]
 offset_left = 544.0
 offset_top = -32.0
 offset_right = 576.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box19" parent="Field/Row2" instance=ExtResource("2_jf5ke")]
 offset_left = 576.0
 offset_top = -32.0
 offset_right = 608.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box20" parent="Field/Row2" instance=ExtResource("2_jf5ke")]
 offset_left = 608.0
 offset_top = -32.0
 offset_right = 640.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box21" parent="Field/Row2" instance=ExtResource("2_jf5ke")]
 offset_left = 640.0
@@ -516,120 +554,143 @@ offset_left = 0.0
 offset_top = -32.0
 offset_right = 32.0
 offset_bottom = 0.0
+team = 0
+victory = true
 
 [node name="Box2" parent="Field/Row3" instance=ExtResource("2_jf5ke")]
 offset_left = 32.0
 offset_top = -32.0
 offset_right = 64.0
 offset_bottom = 0.0
+team = 0
+victory = true
 
 [node name="Box3" parent="Field/Row3" instance=ExtResource("2_jf5ke")]
 offset_left = 64.0
 offset_top = -32.0
 offset_right = 96.0
 offset_bottom = 0.0
+team = 0
+victory = true
 
 [node name="Box4" parent="Field/Row3" instance=ExtResource("2_jf5ke")]
 offset_left = 96.0
 offset_top = -32.0
 offset_right = 128.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box5" parent="Field/Row3" instance=ExtResource("2_jf5ke")]
 offset_left = 128.0
 offset_top = -32.0
 offset_right = 160.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box6" parent="Field/Row3" instance=ExtResource("2_jf5ke")]
 offset_left = 160.0
 offset_top = -32.0
 offset_right = 192.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box7" parent="Field/Row3" instance=ExtResource("2_jf5ke")]
 offset_left = 192.0
 offset_top = -32.0
 offset_right = 224.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box8" parent="Field/Row3" instance=ExtResource("2_jf5ke")]
 offset_left = 224.0
 offset_top = -32.0
 offset_right = 256.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box9" parent="Field/Row3" instance=ExtResource("2_jf5ke")]
 offset_left = 256.0
 offset_top = -32.0
 offset_right = 288.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box10" parent="Field/Row3" instance=ExtResource("2_jf5ke")]
 offset_left = 288.0
 offset_top = -32.0
 offset_right = 320.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box11" parent="Field/Row3" instance=ExtResource("2_jf5ke")]
 offset_left = 320.0
 offset_top = -32.0
 offset_right = 352.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box12" parent="Field/Row3" instance=ExtResource("2_jf5ke")]
 offset_left = 352.0
 offset_top = -32.0
 offset_right = 384.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box13" parent="Field/Row3" instance=ExtResource("2_jf5ke")]
 offset_left = 384.0
 offset_top = -32.0
 offset_right = 416.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box14" parent="Field/Row3" instance=ExtResource("2_jf5ke")]
 offset_left = 416.0
 offset_top = -32.0
 offset_right = 448.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box15" parent="Field/Row3" instance=ExtResource("2_jf5ke")]
 offset_left = 448.0
 offset_top = -32.0
 offset_right = 480.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box16" parent="Field/Row3" instance=ExtResource("2_jf5ke")]
 offset_left = 480.0
 offset_top = -32.0
 offset_right = 512.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box17" parent="Field/Row3" instance=ExtResource("2_jf5ke")]
 offset_left = 512.0
 offset_top = -32.0
 offset_right = 544.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box18" parent="Field/Row3" instance=ExtResource("2_jf5ke")]
 offset_left = 544.0
 offset_top = -32.0
 offset_right = 576.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box19" parent="Field/Row3" instance=ExtResource("2_jf5ke")]
 offset_left = 576.0
 offset_top = -32.0
 offset_right = 608.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box20" parent="Field/Row3" instance=ExtResource("2_jf5ke")]
 offset_left = 608.0
 offset_top = -32.0
 offset_right = 640.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box21" parent="Field/Row3" instance=ExtResource("2_jf5ke")]
 offset_left = 640.0
@@ -759,120 +820,140 @@ offset_left = 0.0
 offset_top = -32.0
 offset_right = 32.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box2" parent="Field/Row4" instance=ExtResource("2_jf5ke")]
 offset_left = 32.0
 offset_top = -32.0
 offset_right = 64.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box3" parent="Field/Row4" instance=ExtResource("2_jf5ke")]
 offset_left = 64.0
 offset_top = -32.0
 offset_right = 96.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box4" parent="Field/Row4" instance=ExtResource("2_jf5ke")]
 offset_left = 96.0
 offset_top = -32.0
 offset_right = 128.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box5" parent="Field/Row4" instance=ExtResource("2_jf5ke")]
 offset_left = 128.0
 offset_top = -32.0
 offset_right = 160.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box6" parent="Field/Row4" instance=ExtResource("2_jf5ke")]
 offset_left = 160.0
 offset_top = -32.0
 offset_right = 192.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box7" parent="Field/Row4" instance=ExtResource("2_jf5ke")]
 offset_left = 192.0
 offset_top = -32.0
 offset_right = 224.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box8" parent="Field/Row4" instance=ExtResource("2_jf5ke")]
 offset_left = 224.0
 offset_top = -32.0
 offset_right = 256.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box9" parent="Field/Row4" instance=ExtResource("2_jf5ke")]
 offset_left = 256.0
 offset_top = -32.0
 offset_right = 288.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box10" parent="Field/Row4" instance=ExtResource("2_jf5ke")]
 offset_left = 288.0
 offset_top = -32.0
 offset_right = 320.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box11" parent="Field/Row4" instance=ExtResource("2_jf5ke")]
 offset_left = 320.0
 offset_top = -32.0
 offset_right = 352.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box12" parent="Field/Row4" instance=ExtResource("2_jf5ke")]
 offset_left = 352.0
 offset_top = -32.0
 offset_right = 384.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box13" parent="Field/Row4" instance=ExtResource("2_jf5ke")]
 offset_left = 384.0
 offset_top = -32.0
 offset_right = 416.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box14" parent="Field/Row4" instance=ExtResource("2_jf5ke")]
 offset_left = 416.0
 offset_top = -32.0
 offset_right = 448.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box15" parent="Field/Row4" instance=ExtResource("2_jf5ke")]
 offset_left = 448.0
 offset_top = -32.0
 offset_right = 480.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box16" parent="Field/Row4" instance=ExtResource("2_jf5ke")]
 offset_left = 480.0
 offset_top = -32.0
 offset_right = 512.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box17" parent="Field/Row4" instance=ExtResource("2_jf5ke")]
 offset_left = 512.0
 offset_top = -32.0
 offset_right = 544.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box18" parent="Field/Row4" instance=ExtResource("2_jf5ke")]
 offset_left = 544.0
 offset_top = -32.0
 offset_right = 576.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box19" parent="Field/Row4" instance=ExtResource("2_jf5ke")]
 offset_left = 576.0
 offset_top = -32.0
 offset_right = 608.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box20" parent="Field/Row4" instance=ExtResource("2_jf5ke")]
 offset_left = 608.0
 offset_top = -32.0
 offset_right = 640.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box21" parent="Field/Row4" instance=ExtResource("2_jf5ke")]
 offset_left = 640.0
@@ -1002,120 +1083,140 @@ offset_left = 0.0
 offset_top = -32.0
 offset_right = 32.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box2" parent="Field/Row5" instance=ExtResource("2_jf5ke")]
 offset_left = 32.0
 offset_top = -32.0
 offset_right = 64.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box3" parent="Field/Row5" instance=ExtResource("2_jf5ke")]
 offset_left = 64.0
 offset_top = -32.0
 offset_right = 96.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box4" parent="Field/Row5" instance=ExtResource("2_jf5ke")]
 offset_left = 96.0
 offset_top = -32.0
 offset_right = 128.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box5" parent="Field/Row5" instance=ExtResource("2_jf5ke")]
 offset_left = 128.0
 offset_top = -32.0
 offset_right = 160.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box6" parent="Field/Row5" instance=ExtResource("2_jf5ke")]
 offset_left = 160.0
 offset_top = -32.0
 offset_right = 192.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box7" parent="Field/Row5" instance=ExtResource("2_jf5ke")]
 offset_left = 192.0
 offset_top = -32.0
 offset_right = 224.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box8" parent="Field/Row5" instance=ExtResource("2_jf5ke")]
 offset_left = 224.0
 offset_top = -32.0
 offset_right = 256.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box9" parent="Field/Row5" instance=ExtResource("2_jf5ke")]
 offset_left = 256.0
 offset_top = -32.0
 offset_right = 288.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box10" parent="Field/Row5" instance=ExtResource("2_jf5ke")]
 offset_left = 288.0
 offset_top = -32.0
 offset_right = 320.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box11" parent="Field/Row5" instance=ExtResource("2_jf5ke")]
 offset_left = 320.0
 offset_top = -32.0
 offset_right = 352.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box12" parent="Field/Row5" instance=ExtResource("2_jf5ke")]
 offset_left = 352.0
 offset_top = -32.0
 offset_right = 384.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box13" parent="Field/Row5" instance=ExtResource("2_jf5ke")]
 offset_left = 384.0
 offset_top = -32.0
 offset_right = 416.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box14" parent="Field/Row5" instance=ExtResource("2_jf5ke")]
 offset_left = 416.0
 offset_top = -32.0
 offset_right = 448.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box15" parent="Field/Row5" instance=ExtResource("2_jf5ke")]
 offset_left = 448.0
 offset_top = -32.0
 offset_right = 480.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box16" parent="Field/Row5" instance=ExtResource("2_jf5ke")]
 offset_left = 480.0
 offset_top = -32.0
 offset_right = 512.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box17" parent="Field/Row5" instance=ExtResource("2_jf5ke")]
 offset_left = 512.0
 offset_top = -32.0
 offset_right = 544.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box18" parent="Field/Row5" instance=ExtResource("2_jf5ke")]
 offset_left = 544.0
 offset_top = -32.0
 offset_right = 576.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box19" parent="Field/Row5" instance=ExtResource("2_jf5ke")]
 offset_left = 576.0
 offset_top = -32.0
 offset_right = 608.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box20" parent="Field/Row5" instance=ExtResource("2_jf5ke")]
 offset_left = 608.0
 offset_top = -32.0
 offset_right = 640.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box21" parent="Field/Row5" instance=ExtResource("2_jf5ke")]
 offset_left = 640.0
@@ -1245,120 +1346,140 @@ offset_left = 0.0
 offset_top = -32.0
 offset_right = 32.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box2" parent="Field/Row6" instance=ExtResource("2_jf5ke")]
 offset_left = 32.0
 offset_top = -32.0
 offset_right = 64.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box3" parent="Field/Row6" instance=ExtResource("2_jf5ke")]
 offset_left = 64.0
 offset_top = -32.0
 offset_right = 96.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box4" parent="Field/Row6" instance=ExtResource("2_jf5ke")]
 offset_left = 96.0
 offset_top = -32.0
 offset_right = 128.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box5" parent="Field/Row6" instance=ExtResource("2_jf5ke")]
 offset_left = 128.0
 offset_top = -32.0
 offset_right = 160.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box6" parent="Field/Row6" instance=ExtResource("2_jf5ke")]
 offset_left = 160.0
 offset_top = -32.0
 offset_right = 192.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box7" parent="Field/Row6" instance=ExtResource("2_jf5ke")]
 offset_left = 192.0
 offset_top = -32.0
 offset_right = 224.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box8" parent="Field/Row6" instance=ExtResource("2_jf5ke")]
 offset_left = 224.0
 offset_top = -32.0
 offset_right = 256.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box9" parent="Field/Row6" instance=ExtResource("2_jf5ke")]
 offset_left = 256.0
 offset_top = -32.0
 offset_right = 288.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box10" parent="Field/Row6" instance=ExtResource("2_jf5ke")]
 offset_left = 288.0
 offset_top = -32.0
 offset_right = 320.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box11" parent="Field/Row6" instance=ExtResource("2_jf5ke")]
 offset_left = 320.0
 offset_top = -32.0
 offset_right = 352.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box12" parent="Field/Row6" instance=ExtResource("2_jf5ke")]
 offset_left = 352.0
 offset_top = -32.0
 offset_right = 384.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box13" parent="Field/Row6" instance=ExtResource("2_jf5ke")]
 offset_left = 384.0
 offset_top = -32.0
 offset_right = 416.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box14" parent="Field/Row6" instance=ExtResource("2_jf5ke")]
 offset_left = 416.0
 offset_top = -32.0
 offset_right = 448.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box15" parent="Field/Row6" instance=ExtResource("2_jf5ke")]
 offset_left = 448.0
 offset_top = -32.0
 offset_right = 480.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box16" parent="Field/Row6" instance=ExtResource("2_jf5ke")]
 offset_left = 480.0
 offset_top = -32.0
 offset_right = 512.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box17" parent="Field/Row6" instance=ExtResource("2_jf5ke")]
 offset_left = 512.0
 offset_top = -32.0
 offset_right = 544.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box18" parent="Field/Row6" instance=ExtResource("2_jf5ke")]
 offset_left = 544.0
 offset_top = -32.0
 offset_right = 576.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box19" parent="Field/Row6" instance=ExtResource("2_jf5ke")]
 offset_left = 576.0
 offset_top = -32.0
 offset_right = 608.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box20" parent="Field/Row6" instance=ExtResource("2_jf5ke")]
 offset_left = 608.0
 offset_top = -32.0
 offset_right = 640.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box21" parent="Field/Row6" instance=ExtResource("2_jf5ke")]
 offset_left = 640.0
@@ -1488,120 +1609,140 @@ offset_left = 0.0
 offset_top = -32.0
 offset_right = 32.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box2" parent="Field/Row7" instance=ExtResource("2_jf5ke")]
 offset_left = 32.0
 offset_top = -32.0
 offset_right = 64.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box3" parent="Field/Row7" instance=ExtResource("2_jf5ke")]
 offset_left = 64.0
 offset_top = -32.0
 offset_right = 96.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box4" parent="Field/Row7" instance=ExtResource("2_jf5ke")]
 offset_left = 96.0
 offset_top = -32.0
 offset_right = 128.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box5" parent="Field/Row7" instance=ExtResource("2_jf5ke")]
 offset_left = 128.0
 offset_top = -32.0
 offset_right = 160.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box6" parent="Field/Row7" instance=ExtResource("2_jf5ke")]
 offset_left = 160.0
 offset_top = -32.0
 offset_right = 192.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box7" parent="Field/Row7" instance=ExtResource("2_jf5ke")]
 offset_left = 192.0
 offset_top = -32.0
 offset_right = 224.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box8" parent="Field/Row7" instance=ExtResource("2_jf5ke")]
 offset_left = 224.0
 offset_top = -32.0
 offset_right = 256.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box9" parent="Field/Row7" instance=ExtResource("2_jf5ke")]
 offset_left = 256.0
 offset_top = -32.0
 offset_right = 288.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box10" parent="Field/Row7" instance=ExtResource("2_jf5ke")]
 offset_left = 288.0
 offset_top = -32.0
 offset_right = 320.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box11" parent="Field/Row7" instance=ExtResource("2_jf5ke")]
 offset_left = 320.0
 offset_top = -32.0
 offset_right = 352.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box12" parent="Field/Row7" instance=ExtResource("2_jf5ke")]
 offset_left = 352.0
 offset_top = -32.0
 offset_right = 384.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box13" parent="Field/Row7" instance=ExtResource("2_jf5ke")]
 offset_left = 384.0
 offset_top = -32.0
 offset_right = 416.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box14" parent="Field/Row7" instance=ExtResource("2_jf5ke")]
 offset_left = 416.0
 offset_top = -32.0
 offset_right = 448.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box15" parent="Field/Row7" instance=ExtResource("2_jf5ke")]
 offset_left = 448.0
 offset_top = -32.0
 offset_right = 480.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box16" parent="Field/Row7" instance=ExtResource("2_jf5ke")]
 offset_left = 480.0
 offset_top = -32.0
 offset_right = 512.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box17" parent="Field/Row7" instance=ExtResource("2_jf5ke")]
 offset_left = 512.0
 offset_top = -32.0
 offset_right = 544.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box18" parent="Field/Row7" instance=ExtResource("2_jf5ke")]
 offset_left = 544.0
 offset_top = -32.0
 offset_right = 576.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box19" parent="Field/Row7" instance=ExtResource("2_jf5ke")]
 offset_left = 576.0
 offset_top = -32.0
 offset_right = 608.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box20" parent="Field/Row7" instance=ExtResource("2_jf5ke")]
 offset_left = 608.0
 offset_top = -32.0
 offset_right = 640.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box21" parent="Field/Row7" instance=ExtResource("2_jf5ke")]
 offset_left = 640.0
@@ -1731,120 +1872,140 @@ offset_left = 0.0
 offset_top = -32.0
 offset_right = 32.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box2" parent="Field/Row8" instance=ExtResource("2_jf5ke")]
 offset_left = 32.0
 offset_top = -32.0
 offset_right = 64.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box3" parent="Field/Row8" instance=ExtResource("2_jf5ke")]
 offset_left = 64.0
 offset_top = -32.0
 offset_right = 96.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box4" parent="Field/Row8" instance=ExtResource("2_jf5ke")]
 offset_left = 96.0
 offset_top = -32.0
 offset_right = 128.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box5" parent="Field/Row8" instance=ExtResource("2_jf5ke")]
 offset_left = 128.0
 offset_top = -32.0
 offset_right = 160.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box6" parent="Field/Row8" instance=ExtResource("2_jf5ke")]
 offset_left = 160.0
 offset_top = -32.0
 offset_right = 192.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box7" parent="Field/Row8" instance=ExtResource("2_jf5ke")]
 offset_left = 192.0
 offset_top = -32.0
 offset_right = 224.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box8" parent="Field/Row8" instance=ExtResource("2_jf5ke")]
 offset_left = 224.0
 offset_top = -32.0
 offset_right = 256.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box9" parent="Field/Row8" instance=ExtResource("2_jf5ke")]
 offset_left = 256.0
 offset_top = -32.0
 offset_right = 288.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box10" parent="Field/Row8" instance=ExtResource("2_jf5ke")]
 offset_left = 288.0
 offset_top = -32.0
 offset_right = 320.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box11" parent="Field/Row8" instance=ExtResource("2_jf5ke")]
 offset_left = 320.0
 offset_top = -32.0
 offset_right = 352.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box12" parent="Field/Row8" instance=ExtResource("2_jf5ke")]
 offset_left = 352.0
 offset_top = -32.0
 offset_right = 384.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box13" parent="Field/Row8" instance=ExtResource("2_jf5ke")]
 offset_left = 384.0
 offset_top = -32.0
 offset_right = 416.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box14" parent="Field/Row8" instance=ExtResource("2_jf5ke")]
 offset_left = 416.0
 offset_top = -32.0
 offset_right = 448.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box15" parent="Field/Row8" instance=ExtResource("2_jf5ke")]
 offset_left = 448.0
 offset_top = -32.0
 offset_right = 480.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box16" parent="Field/Row8" instance=ExtResource("2_jf5ke")]
 offset_left = 480.0
 offset_top = -32.0
 offset_right = 512.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box17" parent="Field/Row8" instance=ExtResource("2_jf5ke")]
 offset_left = 512.0
 offset_top = -32.0
 offset_right = 544.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box18" parent="Field/Row8" instance=ExtResource("2_jf5ke")]
 offset_left = 544.0
 offset_top = -32.0
 offset_right = 576.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box19" parent="Field/Row8" instance=ExtResource("2_jf5ke")]
 offset_left = 576.0
 offset_top = -32.0
 offset_right = 608.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box20" parent="Field/Row8" instance=ExtResource("2_jf5ke")]
 offset_left = 608.0
 offset_top = -32.0
 offset_right = 640.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box21" parent="Field/Row8" instance=ExtResource("2_jf5ke")]
 offset_left = 640.0
@@ -1974,120 +2135,140 @@ offset_left = 0.0
 offset_top = -32.0
 offset_right = 32.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box2" parent="Field/Row9" instance=ExtResource("2_jf5ke")]
 offset_left = 32.0
 offset_top = -32.0
 offset_right = 64.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box3" parent="Field/Row9" instance=ExtResource("2_jf5ke")]
 offset_left = 64.0
 offset_top = -32.0
 offset_right = 96.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box4" parent="Field/Row9" instance=ExtResource("2_jf5ke")]
 offset_left = 96.0
 offset_top = -32.0
 offset_right = 128.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box5" parent="Field/Row9" instance=ExtResource("2_jf5ke")]
 offset_left = 128.0
 offset_top = -32.0
 offset_right = 160.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box6" parent="Field/Row9" instance=ExtResource("2_jf5ke")]
 offset_left = 160.0
 offset_top = -32.0
 offset_right = 192.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box7" parent="Field/Row9" instance=ExtResource("2_jf5ke")]
 offset_left = 192.0
 offset_top = -32.0
 offset_right = 224.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box8" parent="Field/Row9" instance=ExtResource("2_jf5ke")]
 offset_left = 224.0
 offset_top = -32.0
 offset_right = 256.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box9" parent="Field/Row9" instance=ExtResource("2_jf5ke")]
 offset_left = 256.0
 offset_top = -32.0
 offset_right = 288.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box10" parent="Field/Row9" instance=ExtResource("2_jf5ke")]
 offset_left = 288.0
 offset_top = -32.0
 offset_right = 320.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box11" parent="Field/Row9" instance=ExtResource("2_jf5ke")]
 offset_left = 320.0
 offset_top = -32.0
 offset_right = 352.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box12" parent="Field/Row9" instance=ExtResource("2_jf5ke")]
 offset_left = 352.0
 offset_top = -32.0
 offset_right = 384.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box13" parent="Field/Row9" instance=ExtResource("2_jf5ke")]
 offset_left = 384.0
 offset_top = -32.0
 offset_right = 416.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box14" parent="Field/Row9" instance=ExtResource("2_jf5ke")]
 offset_left = 416.0
 offset_top = -32.0
 offset_right = 448.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box15" parent="Field/Row9" instance=ExtResource("2_jf5ke")]
 offset_left = 448.0
 offset_top = -32.0
 offset_right = 480.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box16" parent="Field/Row9" instance=ExtResource("2_jf5ke")]
 offset_left = 480.0
 offset_top = -32.0
 offset_right = 512.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box17" parent="Field/Row9" instance=ExtResource("2_jf5ke")]
 offset_left = 512.0
 offset_top = -32.0
 offset_right = 544.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box18" parent="Field/Row9" instance=ExtResource("2_jf5ke")]
 offset_left = 544.0
 offset_top = -32.0
 offset_right = 576.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box19" parent="Field/Row9" instance=ExtResource("2_jf5ke")]
 offset_left = 576.0
 offset_top = -32.0
 offset_right = 608.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box20" parent="Field/Row9" instance=ExtResource("2_jf5ke")]
 offset_left = 608.0
 offset_top = -32.0
 offset_right = 640.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box21" parent="Field/Row9" instance=ExtResource("2_jf5ke")]
 offset_left = 640.0
@@ -2217,120 +2398,140 @@ offset_left = 0.0
 offset_top = -32.0
 offset_right = 32.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box2" parent="Field/Row10" instance=ExtResource("2_jf5ke")]
 offset_left = 32.0
 offset_top = -32.0
 offset_right = 64.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box3" parent="Field/Row10" instance=ExtResource("2_jf5ke")]
 offset_left = 64.0
 offset_top = -32.0
 offset_right = 96.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box4" parent="Field/Row10" instance=ExtResource("2_jf5ke")]
 offset_left = 96.0
 offset_top = -32.0
 offset_right = 128.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box5" parent="Field/Row10" instance=ExtResource("2_jf5ke")]
 offset_left = 128.0
 offset_top = -32.0
 offset_right = 160.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box6" parent="Field/Row10" instance=ExtResource("2_jf5ke")]
 offset_left = 160.0
 offset_top = -32.0
 offset_right = 192.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box7" parent="Field/Row10" instance=ExtResource("2_jf5ke")]
 offset_left = 192.0
 offset_top = -32.0
 offset_right = 224.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box8" parent="Field/Row10" instance=ExtResource("2_jf5ke")]
 offset_left = 224.0
 offset_top = -32.0
 offset_right = 256.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box9" parent="Field/Row10" instance=ExtResource("2_jf5ke")]
 offset_left = 256.0
 offset_top = -32.0
 offset_right = 288.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box10" parent="Field/Row10" instance=ExtResource("2_jf5ke")]
 offset_left = 288.0
 offset_top = -32.0
 offset_right = 320.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box11" parent="Field/Row10" instance=ExtResource("2_jf5ke")]
 offset_left = 320.0
 offset_top = -32.0
 offset_right = 352.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box12" parent="Field/Row10" instance=ExtResource("2_jf5ke")]
 offset_left = 352.0
 offset_top = -32.0
 offset_right = 384.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box13" parent="Field/Row10" instance=ExtResource("2_jf5ke")]
 offset_left = 384.0
 offset_top = -32.0
 offset_right = 416.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box14" parent="Field/Row10" instance=ExtResource("2_jf5ke")]
 offset_left = 416.0
 offset_top = -32.0
 offset_right = 448.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box15" parent="Field/Row10" instance=ExtResource("2_jf5ke")]
 offset_left = 448.0
 offset_top = -32.0
 offset_right = 480.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box16" parent="Field/Row10" instance=ExtResource("2_jf5ke")]
 offset_left = 480.0
 offset_top = -32.0
 offset_right = 512.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box17" parent="Field/Row10" instance=ExtResource("2_jf5ke")]
 offset_left = 512.0
 offset_top = -32.0
 offset_right = 544.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box18" parent="Field/Row10" instance=ExtResource("2_jf5ke")]
 offset_left = 544.0
 offset_top = -32.0
 offset_right = 576.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box19" parent="Field/Row10" instance=ExtResource("2_jf5ke")]
 offset_left = 576.0
 offset_top = -32.0
 offset_right = 608.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box20" parent="Field/Row10" instance=ExtResource("2_jf5ke")]
 offset_left = 608.0
 offset_top = -32.0
 offset_right = 640.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box21" parent="Field/Row10" instance=ExtResource("2_jf5ke")]
 offset_left = 640.0
@@ -2460,120 +2661,140 @@ offset_left = 0.0
 offset_top = -32.0
 offset_right = 32.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box2" parent="Field/Row11" instance=ExtResource("2_jf5ke")]
 offset_left = 32.0
 offset_top = -32.0
 offset_right = 64.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box3" parent="Field/Row11" instance=ExtResource("2_jf5ke")]
 offset_left = 64.0
 offset_top = -32.0
 offset_right = 96.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box4" parent="Field/Row11" instance=ExtResource("2_jf5ke")]
 offset_left = 96.0
 offset_top = -32.0
 offset_right = 128.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box5" parent="Field/Row11" instance=ExtResource("2_jf5ke")]
 offset_left = 128.0
 offset_top = -32.0
 offset_right = 160.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box6" parent="Field/Row11" instance=ExtResource("2_jf5ke")]
 offset_left = 160.0
 offset_top = -32.0
 offset_right = 192.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box7" parent="Field/Row11" instance=ExtResource("2_jf5ke")]
 offset_left = 192.0
 offset_top = -32.0
 offset_right = 224.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box8" parent="Field/Row11" instance=ExtResource("2_jf5ke")]
 offset_left = 224.0
 offset_top = -32.0
 offset_right = 256.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box9" parent="Field/Row11" instance=ExtResource("2_jf5ke")]
 offset_left = 256.0
 offset_top = -32.0
 offset_right = 288.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box10" parent="Field/Row11" instance=ExtResource("2_jf5ke")]
 offset_left = 288.0
 offset_top = -32.0
 offset_right = 320.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box11" parent="Field/Row11" instance=ExtResource("2_jf5ke")]
 offset_left = 320.0
 offset_top = -32.0
 offset_right = 352.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box12" parent="Field/Row11" instance=ExtResource("2_jf5ke")]
 offset_left = 352.0
 offset_top = -32.0
 offset_right = 384.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box13" parent="Field/Row11" instance=ExtResource("2_jf5ke")]
 offset_left = 384.0
 offset_top = -32.0
 offset_right = 416.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box14" parent="Field/Row11" instance=ExtResource("2_jf5ke")]
 offset_left = 416.0
 offset_top = -32.0
 offset_right = 448.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box15" parent="Field/Row11" instance=ExtResource("2_jf5ke")]
 offset_left = 448.0
 offset_top = -32.0
 offset_right = 480.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box16" parent="Field/Row11" instance=ExtResource("2_jf5ke")]
 offset_left = 480.0
 offset_top = -32.0
 offset_right = 512.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box17" parent="Field/Row11" instance=ExtResource("2_jf5ke")]
 offset_left = 512.0
 offset_top = -32.0
 offset_right = 544.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box18" parent="Field/Row11" instance=ExtResource("2_jf5ke")]
 offset_left = 544.0
 offset_top = -32.0
 offset_right = 576.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box19" parent="Field/Row11" instance=ExtResource("2_jf5ke")]
 offset_left = 576.0
 offset_top = -32.0
 offset_right = 608.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box20" parent="Field/Row11" instance=ExtResource("2_jf5ke")]
 offset_left = 608.0
 offset_top = -32.0
 offset_right = 640.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box21" parent="Field/Row11" instance=ExtResource("2_jf5ke")]
 offset_left = 640.0
@@ -2703,120 +2924,140 @@ offset_left = 0.0
 offset_top = -32.0
 offset_right = 32.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box2" parent="Field/Row12" instance=ExtResource("2_jf5ke")]
 offset_left = 32.0
 offset_top = -32.0
 offset_right = 64.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box3" parent="Field/Row12" instance=ExtResource("2_jf5ke")]
 offset_left = 64.0
 offset_top = -32.0
 offset_right = 96.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box4" parent="Field/Row12" instance=ExtResource("2_jf5ke")]
 offset_left = 96.0
 offset_top = -32.0
 offset_right = 128.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box5" parent="Field/Row12" instance=ExtResource("2_jf5ke")]
 offset_left = 128.0
 offset_top = -32.0
 offset_right = 160.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box6" parent="Field/Row12" instance=ExtResource("2_jf5ke")]
 offset_left = 160.0
 offset_top = -32.0
 offset_right = 192.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box7" parent="Field/Row12" instance=ExtResource("2_jf5ke")]
 offset_left = 192.0
 offset_top = -32.0
 offset_right = 224.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box8" parent="Field/Row12" instance=ExtResource("2_jf5ke")]
 offset_left = 224.0
 offset_top = -32.0
 offset_right = 256.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box9" parent="Field/Row12" instance=ExtResource("2_jf5ke")]
 offset_left = 256.0
 offset_top = -32.0
 offset_right = 288.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box10" parent="Field/Row12" instance=ExtResource("2_jf5ke")]
 offset_left = 288.0
 offset_top = -32.0
 offset_right = 320.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box11" parent="Field/Row12" instance=ExtResource("2_jf5ke")]
 offset_left = 320.0
 offset_top = -32.0
 offset_right = 352.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box12" parent="Field/Row12" instance=ExtResource("2_jf5ke")]
 offset_left = 352.0
 offset_top = -32.0
 offset_right = 384.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box13" parent="Field/Row12" instance=ExtResource("2_jf5ke")]
 offset_left = 384.0
 offset_top = -32.0
 offset_right = 416.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box14" parent="Field/Row12" instance=ExtResource("2_jf5ke")]
 offset_left = 416.0
 offset_top = -32.0
 offset_right = 448.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box15" parent="Field/Row12" instance=ExtResource("2_jf5ke")]
 offset_left = 448.0
 offset_top = -32.0
 offset_right = 480.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box16" parent="Field/Row12" instance=ExtResource("2_jf5ke")]
 offset_left = 480.0
 offset_top = -32.0
 offset_right = 512.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box17" parent="Field/Row12" instance=ExtResource("2_jf5ke")]
 offset_left = 512.0
 offset_top = -32.0
 offset_right = 544.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box18" parent="Field/Row12" instance=ExtResource("2_jf5ke")]
 offset_left = 544.0
 offset_top = -32.0
 offset_right = 576.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box19" parent="Field/Row12" instance=ExtResource("2_jf5ke")]
 offset_left = 576.0
 offset_top = -32.0
 offset_right = 608.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box20" parent="Field/Row12" instance=ExtResource("2_jf5ke")]
 offset_left = 608.0
 offset_top = -32.0
 offset_right = 640.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box21" parent="Field/Row12" instance=ExtResource("2_jf5ke")]
 offset_left = 640.0
@@ -2946,120 +3187,140 @@ offset_left = 0.0
 offset_top = -32.0
 offset_right = 32.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box2" parent="Field/Row13" instance=ExtResource("2_jf5ke")]
 offset_left = 32.0
 offset_top = -32.0
 offset_right = 64.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box3" parent="Field/Row13" instance=ExtResource("2_jf5ke")]
 offset_left = 64.0
 offset_top = -32.0
 offset_right = 96.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box4" parent="Field/Row13" instance=ExtResource("2_jf5ke")]
 offset_left = 96.0
 offset_top = -32.0
 offset_right = 128.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box5" parent="Field/Row13" instance=ExtResource("2_jf5ke")]
 offset_left = 128.0
 offset_top = -32.0
 offset_right = 160.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box6" parent="Field/Row13" instance=ExtResource("2_jf5ke")]
 offset_left = 160.0
 offset_top = -32.0
 offset_right = 192.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box7" parent="Field/Row13" instance=ExtResource("2_jf5ke")]
 offset_left = 192.0
 offset_top = -32.0
 offset_right = 224.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box8" parent="Field/Row13" instance=ExtResource("2_jf5ke")]
 offset_left = 224.0
 offset_top = -32.0
 offset_right = 256.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box9" parent="Field/Row13" instance=ExtResource("2_jf5ke")]
 offset_left = 256.0
 offset_top = -32.0
 offset_right = 288.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box10" parent="Field/Row13" instance=ExtResource("2_jf5ke")]
 offset_left = 288.0
 offset_top = -32.0
 offset_right = 320.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box11" parent="Field/Row13" instance=ExtResource("2_jf5ke")]
 offset_left = 320.0
 offset_top = -32.0
 offset_right = 352.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box12" parent="Field/Row13" instance=ExtResource("2_jf5ke")]
 offset_left = 352.0
 offset_top = -32.0
 offset_right = 384.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box13" parent="Field/Row13" instance=ExtResource("2_jf5ke")]
 offset_left = 384.0
 offset_top = -32.0
 offset_right = 416.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box14" parent="Field/Row13" instance=ExtResource("2_jf5ke")]
 offset_left = 416.0
 offset_top = -32.0
 offset_right = 448.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box15" parent="Field/Row13" instance=ExtResource("2_jf5ke")]
 offset_left = 448.0
 offset_top = -32.0
 offset_right = 480.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box16" parent="Field/Row13" instance=ExtResource("2_jf5ke")]
 offset_left = 480.0
 offset_top = -32.0
 offset_right = 512.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box17" parent="Field/Row13" instance=ExtResource("2_jf5ke")]
 offset_left = 512.0
 offset_top = -32.0
 offset_right = 544.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box18" parent="Field/Row13" instance=ExtResource("2_jf5ke")]
 offset_left = 544.0
 offset_top = -32.0
 offset_right = 576.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box19" parent="Field/Row13" instance=ExtResource("2_jf5ke")]
 offset_left = 576.0
 offset_top = -32.0
 offset_right = 608.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box20" parent="Field/Row13" instance=ExtResource("2_jf5ke")]
 offset_left = 608.0
 offset_top = -32.0
 offset_right = 640.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box21" parent="Field/Row13" instance=ExtResource("2_jf5ke")]
 offset_left = 640.0
@@ -3189,120 +3450,140 @@ offset_left = 0.0
 offset_top = -32.0
 offset_right = 32.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box2" parent="Field/Row14" instance=ExtResource("2_jf5ke")]
 offset_left = 32.0
 offset_top = -32.0
 offset_right = 64.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box3" parent="Field/Row14" instance=ExtResource("2_jf5ke")]
 offset_left = 64.0
 offset_top = -32.0
 offset_right = 96.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box4" parent="Field/Row14" instance=ExtResource("2_jf5ke")]
 offset_left = 96.0
 offset_top = -32.0
 offset_right = 128.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box5" parent="Field/Row14" instance=ExtResource("2_jf5ke")]
 offset_left = 128.0
 offset_top = -32.0
 offset_right = 160.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box6" parent="Field/Row14" instance=ExtResource("2_jf5ke")]
 offset_left = 160.0
 offset_top = -32.0
 offset_right = 192.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box7" parent="Field/Row14" instance=ExtResource("2_jf5ke")]
 offset_left = 192.0
 offset_top = -32.0
 offset_right = 224.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box8" parent="Field/Row14" instance=ExtResource("2_jf5ke")]
 offset_left = 224.0
 offset_top = -32.0
 offset_right = 256.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box9" parent="Field/Row14" instance=ExtResource("2_jf5ke")]
 offset_left = 256.0
 offset_top = -32.0
 offset_right = 288.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box10" parent="Field/Row14" instance=ExtResource("2_jf5ke")]
 offset_left = 288.0
 offset_top = -32.0
 offset_right = 320.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box11" parent="Field/Row14" instance=ExtResource("2_jf5ke")]
 offset_left = 320.0
 offset_top = -32.0
 offset_right = 352.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box12" parent="Field/Row14" instance=ExtResource("2_jf5ke")]
 offset_left = 352.0
 offset_top = -32.0
 offset_right = 384.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box13" parent="Field/Row14" instance=ExtResource("2_jf5ke")]
 offset_left = 384.0
 offset_top = -32.0
 offset_right = 416.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box14" parent="Field/Row14" instance=ExtResource("2_jf5ke")]
 offset_left = 416.0
 offset_top = -32.0
 offset_right = 448.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box15" parent="Field/Row14" instance=ExtResource("2_jf5ke")]
 offset_left = 448.0
 offset_top = -32.0
 offset_right = 480.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box16" parent="Field/Row14" instance=ExtResource("2_jf5ke")]
 offset_left = 480.0
 offset_top = -32.0
 offset_right = 512.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box17" parent="Field/Row14" instance=ExtResource("2_jf5ke")]
 offset_left = 512.0
 offset_top = -32.0
 offset_right = 544.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box18" parent="Field/Row14" instance=ExtResource("2_jf5ke")]
 offset_left = 544.0
 offset_top = -32.0
 offset_right = 576.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box19" parent="Field/Row14" instance=ExtResource("2_jf5ke")]
 offset_left = 576.0
 offset_top = -32.0
 offset_right = 608.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box20" parent="Field/Row14" instance=ExtResource("2_jf5ke")]
 offset_left = 608.0
 offset_top = -32.0
 offset_right = 640.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box21" parent="Field/Row14" instance=ExtResource("2_jf5ke")]
 offset_left = 640.0
@@ -3432,120 +3713,140 @@ offset_left = 0.0
 offset_top = -32.0
 offset_right = 32.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box2" parent="Field/Row15" instance=ExtResource("2_jf5ke")]
 offset_left = 32.0
 offset_top = -32.0
 offset_right = 64.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box3" parent="Field/Row15" instance=ExtResource("2_jf5ke")]
 offset_left = 64.0
 offset_top = -32.0
 offset_right = 96.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box4" parent="Field/Row15" instance=ExtResource("2_jf5ke")]
 offset_left = 96.0
 offset_top = -32.0
 offset_right = 128.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box5" parent="Field/Row15" instance=ExtResource("2_jf5ke")]
 offset_left = 128.0
 offset_top = -32.0
 offset_right = 160.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box6" parent="Field/Row15" instance=ExtResource("2_jf5ke")]
 offset_left = 160.0
 offset_top = -32.0
 offset_right = 192.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box7" parent="Field/Row15" instance=ExtResource("2_jf5ke")]
 offset_left = 192.0
 offset_top = -32.0
 offset_right = 224.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box8" parent="Field/Row15" instance=ExtResource("2_jf5ke")]
 offset_left = 224.0
 offset_top = -32.0
 offset_right = 256.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box9" parent="Field/Row15" instance=ExtResource("2_jf5ke")]
 offset_left = 256.0
 offset_top = -32.0
 offset_right = 288.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box10" parent="Field/Row15" instance=ExtResource("2_jf5ke")]
 offset_left = 288.0
 offset_top = -32.0
 offset_right = 320.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box11" parent="Field/Row15" instance=ExtResource("2_jf5ke")]
 offset_left = 320.0
 offset_top = -32.0
 offset_right = 352.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box12" parent="Field/Row15" instance=ExtResource("2_jf5ke")]
 offset_left = 352.0
 offset_top = -32.0
 offset_right = 384.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box13" parent="Field/Row15" instance=ExtResource("2_jf5ke")]
 offset_left = 384.0
 offset_top = -32.0
 offset_right = 416.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box14" parent="Field/Row15" instance=ExtResource("2_jf5ke")]
 offset_left = 416.0
 offset_top = -32.0
 offset_right = 448.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box15" parent="Field/Row15" instance=ExtResource("2_jf5ke")]
 offset_left = 448.0
 offset_top = -32.0
 offset_right = 480.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box16" parent="Field/Row15" instance=ExtResource("2_jf5ke")]
 offset_left = 480.0
 offset_top = -32.0
 offset_right = 512.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box17" parent="Field/Row15" instance=ExtResource("2_jf5ke")]
 offset_left = 512.0
 offset_top = -32.0
 offset_right = 544.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box18" parent="Field/Row15" instance=ExtResource("2_jf5ke")]
 offset_left = 544.0
 offset_top = -32.0
 offset_right = 576.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box19" parent="Field/Row15" instance=ExtResource("2_jf5ke")]
 offset_left = 576.0
 offset_top = -32.0
 offset_right = 608.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box20" parent="Field/Row15" instance=ExtResource("2_jf5ke")]
 offset_left = 608.0
 offset_top = -32.0
 offset_right = 640.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box21" parent="Field/Row15" instance=ExtResource("2_jf5ke")]
 offset_left = 640.0
@@ -3675,120 +3976,140 @@ offset_left = 0.0
 offset_top = -32.0
 offset_right = 32.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box2" parent="Field/Row16" instance=ExtResource("2_jf5ke")]
 offset_left = 32.0
 offset_top = -32.0
 offset_right = 64.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box3" parent="Field/Row16" instance=ExtResource("2_jf5ke")]
 offset_left = 64.0
 offset_top = -32.0
 offset_right = 96.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box4" parent="Field/Row16" instance=ExtResource("2_jf5ke")]
 offset_left = 96.0
 offset_top = -32.0
 offset_right = 128.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box5" parent="Field/Row16" instance=ExtResource("2_jf5ke")]
 offset_left = 128.0
 offset_top = -32.0
 offset_right = 160.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box6" parent="Field/Row16" instance=ExtResource("2_jf5ke")]
 offset_left = 160.0
 offset_top = -32.0
 offset_right = 192.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box7" parent="Field/Row16" instance=ExtResource("2_jf5ke")]
 offset_left = 192.0
 offset_top = -32.0
 offset_right = 224.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box8" parent="Field/Row16" instance=ExtResource("2_jf5ke")]
 offset_left = 224.0
 offset_top = -32.0
 offset_right = 256.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box9" parent="Field/Row16" instance=ExtResource("2_jf5ke")]
 offset_left = 256.0
 offset_top = -32.0
 offset_right = 288.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box10" parent="Field/Row16" instance=ExtResource("2_jf5ke")]
 offset_left = 288.0
 offset_top = -32.0
 offset_right = 320.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box11" parent="Field/Row16" instance=ExtResource("2_jf5ke")]
 offset_left = 320.0
 offset_top = -32.0
 offset_right = 352.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box12" parent="Field/Row16" instance=ExtResource("2_jf5ke")]
 offset_left = 352.0
 offset_top = -32.0
 offset_right = 384.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box13" parent="Field/Row16" instance=ExtResource("2_jf5ke")]
 offset_left = 384.0
 offset_top = -32.0
 offset_right = 416.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box14" parent="Field/Row16" instance=ExtResource("2_jf5ke")]
 offset_left = 416.0
 offset_top = -32.0
 offset_right = 448.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box15" parent="Field/Row16" instance=ExtResource("2_jf5ke")]
 offset_left = 448.0
 offset_top = -32.0
 offset_right = 480.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box16" parent="Field/Row16" instance=ExtResource("2_jf5ke")]
 offset_left = 480.0
 offset_top = -32.0
 offset_right = 512.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box17" parent="Field/Row16" instance=ExtResource("2_jf5ke")]
 offset_left = 512.0
 offset_top = -32.0
 offset_right = 544.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box18" parent="Field/Row16" instance=ExtResource("2_jf5ke")]
 offset_left = 544.0
 offset_top = -32.0
 offset_right = 576.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box19" parent="Field/Row16" instance=ExtResource("2_jf5ke")]
 offset_left = 576.0
 offset_top = -32.0
 offset_right = 608.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box20" parent="Field/Row16" instance=ExtResource("2_jf5ke")]
 offset_left = 608.0
 offset_top = -32.0
 offset_right = 640.0
 offset_bottom = 0.0
+team = 0
 
 [node name="Box21" parent="Field/Row16" instance=ExtResource("2_jf5ke")]
 offset_left = 640.0
@@ -4038,120 +4359,140 @@ offset_left = 640.0
 offset_top = -32.0
 offset_right = 672.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box22" parent="Field/Row17" instance=ExtResource("2_jf5ke")]
 offset_left = 672.0
 offset_top = -32.0
 offset_right = 704.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box23" parent="Field/Row17" instance=ExtResource("2_jf5ke")]
 offset_left = 704.0
 offset_top = -32.0
 offset_right = 736.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box24" parent="Field/Row17" instance=ExtResource("2_jf5ke")]
 offset_left = 736.0
 offset_top = -32.0
 offset_right = 768.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box25" parent="Field/Row17" instance=ExtResource("2_jf5ke")]
 offset_left = 768.0
 offset_top = -32.0
 offset_right = 800.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box26" parent="Field/Row17" instance=ExtResource("2_jf5ke")]
 offset_left = 800.0
 offset_top = -32.0
 offset_right = 832.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box27" parent="Field/Row17" instance=ExtResource("2_jf5ke")]
 offset_left = 832.0
 offset_top = -32.0
 offset_right = 864.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box28" parent="Field/Row17" instance=ExtResource("2_jf5ke")]
 offset_left = 864.0
 offset_top = -32.0
 offset_right = 896.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box29" parent="Field/Row17" instance=ExtResource("2_jf5ke")]
 offset_left = 896.0
 offset_top = -32.0
 offset_right = 928.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box30" parent="Field/Row17" instance=ExtResource("2_jf5ke")]
 offset_left = 928.0
 offset_top = -32.0
 offset_right = 960.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box31" parent="Field/Row17" instance=ExtResource("2_jf5ke")]
 offset_left = 960.0
 offset_top = -32.0
 offset_right = 992.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box32" parent="Field/Row17" instance=ExtResource("2_jf5ke")]
 offset_left = 992.0
 offset_top = -32.0
 offset_right = 1024.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box33" parent="Field/Row17" instance=ExtResource("2_jf5ke")]
 offset_left = 1024.0
 offset_top = -32.0
 offset_right = 1056.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box34" parent="Field/Row17" instance=ExtResource("2_jf5ke")]
 offset_left = 1056.0
 offset_top = -32.0
 offset_right = 1088.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box35" parent="Field/Row17" instance=ExtResource("2_jf5ke")]
 offset_left = 1088.0
 offset_top = -32.0
 offset_right = 1120.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box36" parent="Field/Row17" instance=ExtResource("2_jf5ke")]
 offset_left = 1120.0
 offset_top = -32.0
 offset_right = 1152.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box37" parent="Field/Row17" instance=ExtResource("2_jf5ke")]
 offset_left = 1152.0
 offset_top = -32.0
 offset_right = 1184.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box38" parent="Field/Row17" instance=ExtResource("2_jf5ke")]
 offset_left = 1184.0
 offset_top = -32.0
 offset_right = 1216.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box39" parent="Field/Row17" instance=ExtResource("2_jf5ke")]
 offset_left = 1216.0
 offset_top = -32.0
 offset_right = 1248.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box40" parent="Field/Row17" instance=ExtResource("2_jf5ke")]
 offset_left = 1248.0
 offset_top = -32.0
 offset_right = 1280.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Row18" type="Node2D" parent="Field"]
 position = Vector2(320, 504)
@@ -4281,120 +4622,140 @@ offset_left = 640.0
 offset_top = -32.0
 offset_right = 672.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box22" parent="Field/Row18" instance=ExtResource("2_jf5ke")]
 offset_left = 672.0
 offset_top = -32.0
 offset_right = 704.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box23" parent="Field/Row18" instance=ExtResource("2_jf5ke")]
 offset_left = 704.0
 offset_top = -32.0
 offset_right = 736.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box24" parent="Field/Row18" instance=ExtResource("2_jf5ke")]
 offset_left = 736.0
 offset_top = -32.0
 offset_right = 768.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box25" parent="Field/Row18" instance=ExtResource("2_jf5ke")]
 offset_left = 768.0
 offset_top = -32.0
 offset_right = 800.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box26" parent="Field/Row18" instance=ExtResource("2_jf5ke")]
 offset_left = 800.0
 offset_top = -32.0
 offset_right = 832.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box27" parent="Field/Row18" instance=ExtResource("2_jf5ke")]
 offset_left = 832.0
 offset_top = -32.0
 offset_right = 864.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box28" parent="Field/Row18" instance=ExtResource("2_jf5ke")]
 offset_left = 864.0
 offset_top = -32.0
 offset_right = 896.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box29" parent="Field/Row18" instance=ExtResource("2_jf5ke")]
 offset_left = 896.0
 offset_top = -32.0
 offset_right = 928.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box30" parent="Field/Row18" instance=ExtResource("2_jf5ke")]
 offset_left = 928.0
 offset_top = -32.0
 offset_right = 960.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box31" parent="Field/Row18" instance=ExtResource("2_jf5ke")]
 offset_left = 960.0
 offset_top = -32.0
 offset_right = 992.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box32" parent="Field/Row18" instance=ExtResource("2_jf5ke")]
 offset_left = 992.0
 offset_top = -32.0
 offset_right = 1024.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box33" parent="Field/Row18" instance=ExtResource("2_jf5ke")]
 offset_left = 1024.0
 offset_top = -32.0
 offset_right = 1056.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box34" parent="Field/Row18" instance=ExtResource("2_jf5ke")]
 offset_left = 1056.0
 offset_top = -32.0
 offset_right = 1088.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box35" parent="Field/Row18" instance=ExtResource("2_jf5ke")]
 offset_left = 1088.0
 offset_top = -32.0
 offset_right = 1120.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box36" parent="Field/Row18" instance=ExtResource("2_jf5ke")]
 offset_left = 1120.0
 offset_top = -32.0
 offset_right = 1152.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box37" parent="Field/Row18" instance=ExtResource("2_jf5ke")]
 offset_left = 1152.0
 offset_top = -32.0
 offset_right = 1184.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box38" parent="Field/Row18" instance=ExtResource("2_jf5ke")]
 offset_left = 1184.0
 offset_top = -32.0
 offset_right = 1216.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box39" parent="Field/Row18" instance=ExtResource("2_jf5ke")]
 offset_left = 1216.0
 offset_top = -32.0
 offset_right = 1248.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box40" parent="Field/Row18" instance=ExtResource("2_jf5ke")]
 offset_left = 1248.0
 offset_top = -32.0
 offset_right = 1280.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Row19" type="Node2D" parent="Field"]
 position = Vector2(320, 472)
@@ -4524,120 +4885,140 @@ offset_left = 640.0
 offset_top = -32.0
 offset_right = 672.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box22" parent="Field/Row19" instance=ExtResource("2_jf5ke")]
 offset_left = 672.0
 offset_top = -32.0
 offset_right = 704.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box23" parent="Field/Row19" instance=ExtResource("2_jf5ke")]
 offset_left = 704.0
 offset_top = -32.0
 offset_right = 736.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box24" parent="Field/Row19" instance=ExtResource("2_jf5ke")]
 offset_left = 736.0
 offset_top = -32.0
 offset_right = 768.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box25" parent="Field/Row19" instance=ExtResource("2_jf5ke")]
 offset_left = 768.0
 offset_top = -32.0
 offset_right = 800.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box26" parent="Field/Row19" instance=ExtResource("2_jf5ke")]
 offset_left = 800.0
 offset_top = -32.0
 offset_right = 832.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box27" parent="Field/Row19" instance=ExtResource("2_jf5ke")]
 offset_left = 832.0
 offset_top = -32.0
 offset_right = 864.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box28" parent="Field/Row19" instance=ExtResource("2_jf5ke")]
 offset_left = 864.0
 offset_top = -32.0
 offset_right = 896.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box29" parent="Field/Row19" instance=ExtResource("2_jf5ke")]
 offset_left = 896.0
 offset_top = -32.0
 offset_right = 928.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box30" parent="Field/Row19" instance=ExtResource("2_jf5ke")]
 offset_left = 928.0
 offset_top = -32.0
 offset_right = 960.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box31" parent="Field/Row19" instance=ExtResource("2_jf5ke")]
 offset_left = 960.0
 offset_top = -32.0
 offset_right = 992.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box32" parent="Field/Row19" instance=ExtResource("2_jf5ke")]
 offset_left = 992.0
 offset_top = -32.0
 offset_right = 1024.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box33" parent="Field/Row19" instance=ExtResource("2_jf5ke")]
 offset_left = 1024.0
 offset_top = -32.0
 offset_right = 1056.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box34" parent="Field/Row19" instance=ExtResource("2_jf5ke")]
 offset_left = 1056.0
 offset_top = -32.0
 offset_right = 1088.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box35" parent="Field/Row19" instance=ExtResource("2_jf5ke")]
 offset_left = 1088.0
 offset_top = -32.0
 offset_right = 1120.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box36" parent="Field/Row19" instance=ExtResource("2_jf5ke")]
 offset_left = 1120.0
 offset_top = -32.0
 offset_right = 1152.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box37" parent="Field/Row19" instance=ExtResource("2_jf5ke")]
 offset_left = 1152.0
 offset_top = -32.0
 offset_right = 1184.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box38" parent="Field/Row19" instance=ExtResource("2_jf5ke")]
 offset_left = 1184.0
 offset_top = -32.0
 offset_right = 1216.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box39" parent="Field/Row19" instance=ExtResource("2_jf5ke")]
 offset_left = 1216.0
 offset_top = -32.0
 offset_right = 1248.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box40" parent="Field/Row19" instance=ExtResource("2_jf5ke")]
 offset_left = 1248.0
 offset_top = -32.0
 offset_right = 1280.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Row20" type="Node2D" parent="Field"]
 position = Vector2(320, 440)
@@ -4767,120 +5148,140 @@ offset_left = 640.0
 offset_top = -32.0
 offset_right = 672.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box22" parent="Field/Row20" instance=ExtResource("2_jf5ke")]
 offset_left = 672.0
 offset_top = -32.0
 offset_right = 704.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box23" parent="Field/Row20" instance=ExtResource("2_jf5ke")]
 offset_left = 704.0
 offset_top = -32.0
 offset_right = 736.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box24" parent="Field/Row20" instance=ExtResource("2_jf5ke")]
 offset_left = 736.0
 offset_top = -32.0
 offset_right = 768.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box25" parent="Field/Row20" instance=ExtResource("2_jf5ke")]
 offset_left = 768.0
 offset_top = -32.0
 offset_right = 800.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box26" parent="Field/Row20" instance=ExtResource("2_jf5ke")]
 offset_left = 800.0
 offset_top = -32.0
 offset_right = 832.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box27" parent="Field/Row20" instance=ExtResource("2_jf5ke")]
 offset_left = 832.0
 offset_top = -32.0
 offset_right = 864.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box28" parent="Field/Row20" instance=ExtResource("2_jf5ke")]
 offset_left = 864.0
 offset_top = -32.0
 offset_right = 896.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box29" parent="Field/Row20" instance=ExtResource("2_jf5ke")]
 offset_left = 896.0
 offset_top = -32.0
 offset_right = 928.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box30" parent="Field/Row20" instance=ExtResource("2_jf5ke")]
 offset_left = 928.0
 offset_top = -32.0
 offset_right = 960.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box31" parent="Field/Row20" instance=ExtResource("2_jf5ke")]
 offset_left = 960.0
 offset_top = -32.0
 offset_right = 992.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box32" parent="Field/Row20" instance=ExtResource("2_jf5ke")]
 offset_left = 992.0
 offset_top = -32.0
 offset_right = 1024.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box33" parent="Field/Row20" instance=ExtResource("2_jf5ke")]
 offset_left = 1024.0
 offset_top = -32.0
 offset_right = 1056.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box34" parent="Field/Row20" instance=ExtResource("2_jf5ke")]
 offset_left = 1056.0
 offset_top = -32.0
 offset_right = 1088.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box35" parent="Field/Row20" instance=ExtResource("2_jf5ke")]
 offset_left = 1088.0
 offset_top = -32.0
 offset_right = 1120.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box36" parent="Field/Row20" instance=ExtResource("2_jf5ke")]
 offset_left = 1120.0
 offset_top = -32.0
 offset_right = 1152.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box37" parent="Field/Row20" instance=ExtResource("2_jf5ke")]
 offset_left = 1152.0
 offset_top = -32.0
 offset_right = 1184.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box38" parent="Field/Row20" instance=ExtResource("2_jf5ke")]
 offset_left = 1184.0
 offset_top = -32.0
 offset_right = 1216.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box39" parent="Field/Row20" instance=ExtResource("2_jf5ke")]
 offset_left = 1216.0
 offset_top = -32.0
 offset_right = 1248.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box40" parent="Field/Row20" instance=ExtResource("2_jf5ke")]
 offset_left = 1248.0
 offset_top = -32.0
 offset_right = 1280.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Row21" type="Node2D" parent="Field"]
 position = Vector2(320, 408)
@@ -5010,120 +5411,140 @@ offset_left = 640.0
 offset_top = -32.0
 offset_right = 672.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box22" parent="Field/Row21" instance=ExtResource("2_jf5ke")]
 offset_left = 672.0
 offset_top = -32.0
 offset_right = 704.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box23" parent="Field/Row21" instance=ExtResource("2_jf5ke")]
 offset_left = 704.0
 offset_top = -32.0
 offset_right = 736.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box24" parent="Field/Row21" instance=ExtResource("2_jf5ke")]
 offset_left = 736.0
 offset_top = -32.0
 offset_right = 768.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box25" parent="Field/Row21" instance=ExtResource("2_jf5ke")]
 offset_left = 768.0
 offset_top = -32.0
 offset_right = 800.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box26" parent="Field/Row21" instance=ExtResource("2_jf5ke")]
 offset_left = 800.0
 offset_top = -32.0
 offset_right = 832.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box27" parent="Field/Row21" instance=ExtResource("2_jf5ke")]
 offset_left = 832.0
 offset_top = -32.0
 offset_right = 864.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box28" parent="Field/Row21" instance=ExtResource("2_jf5ke")]
 offset_left = 864.0
 offset_top = -32.0
 offset_right = 896.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box29" parent="Field/Row21" instance=ExtResource("2_jf5ke")]
 offset_left = 896.0
 offset_top = -32.0
 offset_right = 928.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box30" parent="Field/Row21" instance=ExtResource("2_jf5ke")]
 offset_left = 928.0
 offset_top = -32.0
 offset_right = 960.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box31" parent="Field/Row21" instance=ExtResource("2_jf5ke")]
 offset_left = 960.0
 offset_top = -32.0
 offset_right = 992.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box32" parent="Field/Row21" instance=ExtResource("2_jf5ke")]
 offset_left = 992.0
 offset_top = -32.0
 offset_right = 1024.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box33" parent="Field/Row21" instance=ExtResource("2_jf5ke")]
 offset_left = 1024.0
 offset_top = -32.0
 offset_right = 1056.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box34" parent="Field/Row21" instance=ExtResource("2_jf5ke")]
 offset_left = 1056.0
 offset_top = -32.0
 offset_right = 1088.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box35" parent="Field/Row21" instance=ExtResource("2_jf5ke")]
 offset_left = 1088.0
 offset_top = -32.0
 offset_right = 1120.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box36" parent="Field/Row21" instance=ExtResource("2_jf5ke")]
 offset_left = 1120.0
 offset_top = -32.0
 offset_right = 1152.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box37" parent="Field/Row21" instance=ExtResource("2_jf5ke")]
 offset_left = 1152.0
 offset_top = -32.0
 offset_right = 1184.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box38" parent="Field/Row21" instance=ExtResource("2_jf5ke")]
 offset_left = 1184.0
 offset_top = -32.0
 offset_right = 1216.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box39" parent="Field/Row21" instance=ExtResource("2_jf5ke")]
 offset_left = 1216.0
 offset_top = -32.0
 offset_right = 1248.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box40" parent="Field/Row21" instance=ExtResource("2_jf5ke")]
 offset_left = 1248.0
 offset_top = -32.0
 offset_right = 1280.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Row22" type="Node2D" parent="Field"]
 position = Vector2(320, 376)
@@ -5253,120 +5674,140 @@ offset_left = 640.0
 offset_top = -32.0
 offset_right = 672.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box22" parent="Field/Row22" instance=ExtResource("2_jf5ke")]
 offset_left = 672.0
 offset_top = -32.0
 offset_right = 704.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box23" parent="Field/Row22" instance=ExtResource("2_jf5ke")]
 offset_left = 704.0
 offset_top = -32.0
 offset_right = 736.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box24" parent="Field/Row22" instance=ExtResource("2_jf5ke")]
 offset_left = 736.0
 offset_top = -32.0
 offset_right = 768.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box25" parent="Field/Row22" instance=ExtResource("2_jf5ke")]
 offset_left = 768.0
 offset_top = -32.0
 offset_right = 800.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box26" parent="Field/Row22" instance=ExtResource("2_jf5ke")]
 offset_left = 800.0
 offset_top = -32.0
 offset_right = 832.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box27" parent="Field/Row22" instance=ExtResource("2_jf5ke")]
 offset_left = 832.0
 offset_top = -32.0
 offset_right = 864.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box28" parent="Field/Row22" instance=ExtResource("2_jf5ke")]
 offset_left = 864.0
 offset_top = -32.0
 offset_right = 896.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box29" parent="Field/Row22" instance=ExtResource("2_jf5ke")]
 offset_left = 896.0
 offset_top = -32.0
 offset_right = 928.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box30" parent="Field/Row22" instance=ExtResource("2_jf5ke")]
 offset_left = 928.0
 offset_top = -32.0
 offset_right = 960.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box31" parent="Field/Row22" instance=ExtResource("2_jf5ke")]
 offset_left = 960.0
 offset_top = -32.0
 offset_right = 992.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box32" parent="Field/Row22" instance=ExtResource("2_jf5ke")]
 offset_left = 992.0
 offset_top = -32.0
 offset_right = 1024.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box33" parent="Field/Row22" instance=ExtResource("2_jf5ke")]
 offset_left = 1024.0
 offset_top = -32.0
 offset_right = 1056.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box34" parent="Field/Row22" instance=ExtResource("2_jf5ke")]
 offset_left = 1056.0
 offset_top = -32.0
 offset_right = 1088.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box35" parent="Field/Row22" instance=ExtResource("2_jf5ke")]
 offset_left = 1088.0
 offset_top = -32.0
 offset_right = 1120.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box36" parent="Field/Row22" instance=ExtResource("2_jf5ke")]
 offset_left = 1120.0
 offset_top = -32.0
 offset_right = 1152.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box37" parent="Field/Row22" instance=ExtResource("2_jf5ke")]
 offset_left = 1152.0
 offset_top = -32.0
 offset_right = 1184.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box38" parent="Field/Row22" instance=ExtResource("2_jf5ke")]
 offset_left = 1184.0
 offset_top = -32.0
 offset_right = 1216.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box39" parent="Field/Row22" instance=ExtResource("2_jf5ke")]
 offset_left = 1216.0
 offset_top = -32.0
 offset_right = 1248.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box40" parent="Field/Row22" instance=ExtResource("2_jf5ke")]
 offset_left = 1248.0
 offset_top = -32.0
 offset_right = 1280.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Row23" type="Node2D" parent="Field"]
 position = Vector2(320, 344)
@@ -5496,120 +5937,140 @@ offset_left = 640.0
 offset_top = -32.0
 offset_right = 672.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box22" parent="Field/Row23" instance=ExtResource("2_jf5ke")]
 offset_left = 672.0
 offset_top = -32.0
 offset_right = 704.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box23" parent="Field/Row23" instance=ExtResource("2_jf5ke")]
 offset_left = 704.0
 offset_top = -32.0
 offset_right = 736.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box24" parent="Field/Row23" instance=ExtResource("2_jf5ke")]
 offset_left = 736.0
 offset_top = -32.0
 offset_right = 768.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box25" parent="Field/Row23" instance=ExtResource("2_jf5ke")]
 offset_left = 768.0
 offset_top = -32.0
 offset_right = 800.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box26" parent="Field/Row23" instance=ExtResource("2_jf5ke")]
 offset_left = 800.0
 offset_top = -32.0
 offset_right = 832.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box27" parent="Field/Row23" instance=ExtResource("2_jf5ke")]
 offset_left = 832.0
 offset_top = -32.0
 offset_right = 864.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box28" parent="Field/Row23" instance=ExtResource("2_jf5ke")]
 offset_left = 864.0
 offset_top = -32.0
 offset_right = 896.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box29" parent="Field/Row23" instance=ExtResource("2_jf5ke")]
 offset_left = 896.0
 offset_top = -32.0
 offset_right = 928.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box30" parent="Field/Row23" instance=ExtResource("2_jf5ke")]
 offset_left = 928.0
 offset_top = -32.0
 offset_right = 960.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box31" parent="Field/Row23" instance=ExtResource("2_jf5ke")]
 offset_left = 960.0
 offset_top = -32.0
 offset_right = 992.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box32" parent="Field/Row23" instance=ExtResource("2_jf5ke")]
 offset_left = 992.0
 offset_top = -32.0
 offset_right = 1024.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box33" parent="Field/Row23" instance=ExtResource("2_jf5ke")]
 offset_left = 1024.0
 offset_top = -32.0
 offset_right = 1056.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box34" parent="Field/Row23" instance=ExtResource("2_jf5ke")]
 offset_left = 1056.0
 offset_top = -32.0
 offset_right = 1088.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box35" parent="Field/Row23" instance=ExtResource("2_jf5ke")]
 offset_left = 1088.0
 offset_top = -32.0
 offset_right = 1120.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box36" parent="Field/Row23" instance=ExtResource("2_jf5ke")]
 offset_left = 1120.0
 offset_top = -32.0
 offset_right = 1152.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box37" parent="Field/Row23" instance=ExtResource("2_jf5ke")]
 offset_left = 1152.0
 offset_top = -32.0
 offset_right = 1184.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box38" parent="Field/Row23" instance=ExtResource("2_jf5ke")]
 offset_left = 1184.0
 offset_top = -32.0
 offset_right = 1216.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box39" parent="Field/Row23" instance=ExtResource("2_jf5ke")]
 offset_left = 1216.0
 offset_top = -32.0
 offset_right = 1248.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box40" parent="Field/Row23" instance=ExtResource("2_jf5ke")]
 offset_left = 1248.0
 offset_top = -32.0
 offset_right = 1280.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Row24" type="Node2D" parent="Field"]
 position = Vector2(320, 312)
@@ -5739,120 +6200,140 @@ offset_left = 640.0
 offset_top = -32.0
 offset_right = 672.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box22" parent="Field/Row24" instance=ExtResource("2_jf5ke")]
 offset_left = 672.0
 offset_top = -32.0
 offset_right = 704.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box23" parent="Field/Row24" instance=ExtResource("2_jf5ke")]
 offset_left = 704.0
 offset_top = -32.0
 offset_right = 736.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box24" parent="Field/Row24" instance=ExtResource("2_jf5ke")]
 offset_left = 736.0
 offset_top = -32.0
 offset_right = 768.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box25" parent="Field/Row24" instance=ExtResource("2_jf5ke")]
 offset_left = 768.0
 offset_top = -32.0
 offset_right = 800.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box26" parent="Field/Row24" instance=ExtResource("2_jf5ke")]
 offset_left = 800.0
 offset_top = -32.0
 offset_right = 832.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box27" parent="Field/Row24" instance=ExtResource("2_jf5ke")]
 offset_left = 832.0
 offset_top = -32.0
 offset_right = 864.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box28" parent="Field/Row24" instance=ExtResource("2_jf5ke")]
 offset_left = 864.0
 offset_top = -32.0
 offset_right = 896.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box29" parent="Field/Row24" instance=ExtResource("2_jf5ke")]
 offset_left = 896.0
 offset_top = -32.0
 offset_right = 928.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box30" parent="Field/Row24" instance=ExtResource("2_jf5ke")]
 offset_left = 928.0
 offset_top = -32.0
 offset_right = 960.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box31" parent="Field/Row24" instance=ExtResource("2_jf5ke")]
 offset_left = 960.0
 offset_top = -32.0
 offset_right = 992.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box32" parent="Field/Row24" instance=ExtResource("2_jf5ke")]
 offset_left = 992.0
 offset_top = -32.0
 offset_right = 1024.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box33" parent="Field/Row24" instance=ExtResource("2_jf5ke")]
 offset_left = 1024.0
 offset_top = -32.0
 offset_right = 1056.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box34" parent="Field/Row24" instance=ExtResource("2_jf5ke")]
 offset_left = 1056.0
 offset_top = -32.0
 offset_right = 1088.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box35" parent="Field/Row24" instance=ExtResource("2_jf5ke")]
 offset_left = 1088.0
 offset_top = -32.0
 offset_right = 1120.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box36" parent="Field/Row24" instance=ExtResource("2_jf5ke")]
 offset_left = 1120.0
 offset_top = -32.0
 offset_right = 1152.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box37" parent="Field/Row24" instance=ExtResource("2_jf5ke")]
 offset_left = 1152.0
 offset_top = -32.0
 offset_right = 1184.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box38" parent="Field/Row24" instance=ExtResource("2_jf5ke")]
 offset_left = 1184.0
 offset_top = -32.0
 offset_right = 1216.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box39" parent="Field/Row24" instance=ExtResource("2_jf5ke")]
 offset_left = 1216.0
 offset_top = -32.0
 offset_right = 1248.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box40" parent="Field/Row24" instance=ExtResource("2_jf5ke")]
 offset_left = 1248.0
 offset_top = -32.0
 offset_right = 1280.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Row25" type="Node2D" parent="Field"]
 position = Vector2(320, 280)
@@ -5982,120 +6463,140 @@ offset_left = 640.0
 offset_top = -32.0
 offset_right = 672.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box22" parent="Field/Row25" instance=ExtResource("2_jf5ke")]
 offset_left = 672.0
 offset_top = -32.0
 offset_right = 704.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box23" parent="Field/Row25" instance=ExtResource("2_jf5ke")]
 offset_left = 704.0
 offset_top = -32.0
 offset_right = 736.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box24" parent="Field/Row25" instance=ExtResource("2_jf5ke")]
 offset_left = 736.0
 offset_top = -32.0
 offset_right = 768.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box25" parent="Field/Row25" instance=ExtResource("2_jf5ke")]
 offset_left = 768.0
 offset_top = -32.0
 offset_right = 800.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box26" parent="Field/Row25" instance=ExtResource("2_jf5ke")]
 offset_left = 800.0
 offset_top = -32.0
 offset_right = 832.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box27" parent="Field/Row25" instance=ExtResource("2_jf5ke")]
 offset_left = 832.0
 offset_top = -32.0
 offset_right = 864.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box28" parent="Field/Row25" instance=ExtResource("2_jf5ke")]
 offset_left = 864.0
 offset_top = -32.0
 offset_right = 896.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box29" parent="Field/Row25" instance=ExtResource("2_jf5ke")]
 offset_left = 896.0
 offset_top = -32.0
 offset_right = 928.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box30" parent="Field/Row25" instance=ExtResource("2_jf5ke")]
 offset_left = 928.0
 offset_top = -32.0
 offset_right = 960.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box31" parent="Field/Row25" instance=ExtResource("2_jf5ke")]
 offset_left = 960.0
 offset_top = -32.0
 offset_right = 992.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box32" parent="Field/Row25" instance=ExtResource("2_jf5ke")]
 offset_left = 992.0
 offset_top = -32.0
 offset_right = 1024.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box33" parent="Field/Row25" instance=ExtResource("2_jf5ke")]
 offset_left = 1024.0
 offset_top = -32.0
 offset_right = 1056.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box34" parent="Field/Row25" instance=ExtResource("2_jf5ke")]
 offset_left = 1056.0
 offset_top = -32.0
 offset_right = 1088.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box35" parent="Field/Row25" instance=ExtResource("2_jf5ke")]
 offset_left = 1088.0
 offset_top = -32.0
 offset_right = 1120.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box36" parent="Field/Row25" instance=ExtResource("2_jf5ke")]
 offset_left = 1120.0
 offset_top = -32.0
 offset_right = 1152.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box37" parent="Field/Row25" instance=ExtResource("2_jf5ke")]
 offset_left = 1152.0
 offset_top = -32.0
 offset_right = 1184.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box38" parent="Field/Row25" instance=ExtResource("2_jf5ke")]
 offset_left = 1184.0
 offset_top = -32.0
 offset_right = 1216.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box39" parent="Field/Row25" instance=ExtResource("2_jf5ke")]
 offset_left = 1216.0
 offset_top = -32.0
 offset_right = 1248.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box40" parent="Field/Row25" instance=ExtResource("2_jf5ke")]
 offset_left = 1248.0
 offset_top = -32.0
 offset_right = 1280.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Row26" type="Node2D" parent="Field"]
 position = Vector2(320, 248)
@@ -6225,120 +6726,140 @@ offset_left = 640.0
 offset_top = -32.0
 offset_right = 672.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box22" parent="Field/Row26" instance=ExtResource("2_jf5ke")]
 offset_left = 672.0
 offset_top = -32.0
 offset_right = 704.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box23" parent="Field/Row26" instance=ExtResource("2_jf5ke")]
 offset_left = 704.0
 offset_top = -32.0
 offset_right = 736.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box24" parent="Field/Row26" instance=ExtResource("2_jf5ke")]
 offset_left = 736.0
 offset_top = -32.0
 offset_right = 768.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box25" parent="Field/Row26" instance=ExtResource("2_jf5ke")]
 offset_left = 768.0
 offset_top = -32.0
 offset_right = 800.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box26" parent="Field/Row26" instance=ExtResource("2_jf5ke")]
 offset_left = 800.0
 offset_top = -32.0
 offset_right = 832.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box27" parent="Field/Row26" instance=ExtResource("2_jf5ke")]
 offset_left = 832.0
 offset_top = -32.0
 offset_right = 864.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box28" parent="Field/Row26" instance=ExtResource("2_jf5ke")]
 offset_left = 864.0
 offset_top = -32.0
 offset_right = 896.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box29" parent="Field/Row26" instance=ExtResource("2_jf5ke")]
 offset_left = 896.0
 offset_top = -32.0
 offset_right = 928.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box30" parent="Field/Row26" instance=ExtResource("2_jf5ke")]
 offset_left = 928.0
 offset_top = -32.0
 offset_right = 960.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box31" parent="Field/Row26" instance=ExtResource("2_jf5ke")]
 offset_left = 960.0
 offset_top = -32.0
 offset_right = 992.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box32" parent="Field/Row26" instance=ExtResource("2_jf5ke")]
 offset_left = 992.0
 offset_top = -32.0
 offset_right = 1024.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box33" parent="Field/Row26" instance=ExtResource("2_jf5ke")]
 offset_left = 1024.0
 offset_top = -32.0
 offset_right = 1056.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box34" parent="Field/Row26" instance=ExtResource("2_jf5ke")]
 offset_left = 1056.0
 offset_top = -32.0
 offset_right = 1088.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box35" parent="Field/Row26" instance=ExtResource("2_jf5ke")]
 offset_left = 1088.0
 offset_top = -32.0
 offset_right = 1120.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box36" parent="Field/Row26" instance=ExtResource("2_jf5ke")]
 offset_left = 1120.0
 offset_top = -32.0
 offset_right = 1152.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box37" parent="Field/Row26" instance=ExtResource("2_jf5ke")]
 offset_left = 1152.0
 offset_top = -32.0
 offset_right = 1184.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box38" parent="Field/Row26" instance=ExtResource("2_jf5ke")]
 offset_left = 1184.0
 offset_top = -32.0
 offset_right = 1216.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box39" parent="Field/Row26" instance=ExtResource("2_jf5ke")]
 offset_left = 1216.0
 offset_top = -32.0
 offset_right = 1248.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box40" parent="Field/Row26" instance=ExtResource("2_jf5ke")]
 offset_left = 1248.0
 offset_top = -32.0
 offset_right = 1280.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Row27" type="Node2D" parent="Field"]
 position = Vector2(320, 216)
@@ -6468,120 +6989,140 @@ offset_left = 640.0
 offset_top = -32.0
 offset_right = 672.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box22" parent="Field/Row27" instance=ExtResource("2_jf5ke")]
 offset_left = 672.0
 offset_top = -32.0
 offset_right = 704.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box23" parent="Field/Row27" instance=ExtResource("2_jf5ke")]
 offset_left = 704.0
 offset_top = -32.0
 offset_right = 736.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box24" parent="Field/Row27" instance=ExtResource("2_jf5ke")]
 offset_left = 736.0
 offset_top = -32.0
 offset_right = 768.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box25" parent="Field/Row27" instance=ExtResource("2_jf5ke")]
 offset_left = 768.0
 offset_top = -32.0
 offset_right = 800.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box26" parent="Field/Row27" instance=ExtResource("2_jf5ke")]
 offset_left = 800.0
 offset_top = -32.0
 offset_right = 832.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box27" parent="Field/Row27" instance=ExtResource("2_jf5ke")]
 offset_left = 832.0
 offset_top = -32.0
 offset_right = 864.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box28" parent="Field/Row27" instance=ExtResource("2_jf5ke")]
 offset_left = 864.0
 offset_top = -32.0
 offset_right = 896.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box29" parent="Field/Row27" instance=ExtResource("2_jf5ke")]
 offset_left = 896.0
 offset_top = -32.0
 offset_right = 928.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box30" parent="Field/Row27" instance=ExtResource("2_jf5ke")]
 offset_left = 928.0
 offset_top = -32.0
 offset_right = 960.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box31" parent="Field/Row27" instance=ExtResource("2_jf5ke")]
 offset_left = 960.0
 offset_top = -32.0
 offset_right = 992.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box32" parent="Field/Row27" instance=ExtResource("2_jf5ke")]
 offset_left = 992.0
 offset_top = -32.0
 offset_right = 1024.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box33" parent="Field/Row27" instance=ExtResource("2_jf5ke")]
 offset_left = 1024.0
 offset_top = -32.0
 offset_right = 1056.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box34" parent="Field/Row27" instance=ExtResource("2_jf5ke")]
 offset_left = 1056.0
 offset_top = -32.0
 offset_right = 1088.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box35" parent="Field/Row27" instance=ExtResource("2_jf5ke")]
 offset_left = 1088.0
 offset_top = -32.0
 offset_right = 1120.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box36" parent="Field/Row27" instance=ExtResource("2_jf5ke")]
 offset_left = 1120.0
 offset_top = -32.0
 offset_right = 1152.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box37" parent="Field/Row27" instance=ExtResource("2_jf5ke")]
 offset_left = 1152.0
 offset_top = -32.0
 offset_right = 1184.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box38" parent="Field/Row27" instance=ExtResource("2_jf5ke")]
 offset_left = 1184.0
 offset_top = -32.0
 offset_right = 1216.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box39" parent="Field/Row27" instance=ExtResource("2_jf5ke")]
 offset_left = 1216.0
 offset_top = -32.0
 offset_right = 1248.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box40" parent="Field/Row27" instance=ExtResource("2_jf5ke")]
 offset_left = 1248.0
 offset_top = -32.0
 offset_right = 1280.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Row28" type="Node2D" parent="Field"]
 position = Vector2(320, 184)
@@ -6711,120 +7252,140 @@ offset_left = 640.0
 offset_top = -32.0
 offset_right = 672.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box22" parent="Field/Row28" instance=ExtResource("2_jf5ke")]
 offset_left = 672.0
 offset_top = -32.0
 offset_right = 704.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box23" parent="Field/Row28" instance=ExtResource("2_jf5ke")]
 offset_left = 704.0
 offset_top = -32.0
 offset_right = 736.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box24" parent="Field/Row28" instance=ExtResource("2_jf5ke")]
 offset_left = 736.0
 offset_top = -32.0
 offset_right = 768.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box25" parent="Field/Row28" instance=ExtResource("2_jf5ke")]
 offset_left = 768.0
 offset_top = -32.0
 offset_right = 800.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box26" parent="Field/Row28" instance=ExtResource("2_jf5ke")]
 offset_left = 800.0
 offset_top = -32.0
 offset_right = 832.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box27" parent="Field/Row28" instance=ExtResource("2_jf5ke")]
 offset_left = 832.0
 offset_top = -32.0
 offset_right = 864.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box28" parent="Field/Row28" instance=ExtResource("2_jf5ke")]
 offset_left = 864.0
 offset_top = -32.0
 offset_right = 896.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box29" parent="Field/Row28" instance=ExtResource("2_jf5ke")]
 offset_left = 896.0
 offset_top = -32.0
 offset_right = 928.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box30" parent="Field/Row28" instance=ExtResource("2_jf5ke")]
 offset_left = 928.0
 offset_top = -32.0
 offset_right = 960.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box31" parent="Field/Row28" instance=ExtResource("2_jf5ke")]
 offset_left = 960.0
 offset_top = -32.0
 offset_right = 992.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box32" parent="Field/Row28" instance=ExtResource("2_jf5ke")]
 offset_left = 992.0
 offset_top = -32.0
 offset_right = 1024.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box33" parent="Field/Row28" instance=ExtResource("2_jf5ke")]
 offset_left = 1024.0
 offset_top = -32.0
 offset_right = 1056.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box34" parent="Field/Row28" instance=ExtResource("2_jf5ke")]
 offset_left = 1056.0
 offset_top = -32.0
 offset_right = 1088.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box35" parent="Field/Row28" instance=ExtResource("2_jf5ke")]
 offset_left = 1088.0
 offset_top = -32.0
 offset_right = 1120.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box36" parent="Field/Row28" instance=ExtResource("2_jf5ke")]
 offset_left = 1120.0
 offset_top = -32.0
 offset_right = 1152.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box37" parent="Field/Row28" instance=ExtResource("2_jf5ke")]
 offset_left = 1152.0
 offset_top = -32.0
 offset_right = 1184.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box38" parent="Field/Row28" instance=ExtResource("2_jf5ke")]
 offset_left = 1184.0
 offset_top = -32.0
 offset_right = 1216.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box39" parent="Field/Row28" instance=ExtResource("2_jf5ke")]
 offset_left = 1216.0
 offset_top = -32.0
 offset_right = 1248.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box40" parent="Field/Row28" instance=ExtResource("2_jf5ke")]
 offset_left = 1248.0
 offset_top = -32.0
 offset_right = 1280.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Row29" type="Node2D" parent="Field"]
 position = Vector2(320, 152)
@@ -6954,120 +7515,140 @@ offset_left = 640.0
 offset_top = -32.0
 offset_right = 672.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box22" parent="Field/Row29" instance=ExtResource("2_jf5ke")]
 offset_left = 672.0
 offset_top = -32.0
 offset_right = 704.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box23" parent="Field/Row29" instance=ExtResource("2_jf5ke")]
 offset_left = 704.0
 offset_top = -32.0
 offset_right = 736.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box24" parent="Field/Row29" instance=ExtResource("2_jf5ke")]
 offset_left = 736.0
 offset_top = -32.0
 offset_right = 768.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box25" parent="Field/Row29" instance=ExtResource("2_jf5ke")]
 offset_left = 768.0
 offset_top = -32.0
 offset_right = 800.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box26" parent="Field/Row29" instance=ExtResource("2_jf5ke")]
 offset_left = 800.0
 offset_top = -32.0
 offset_right = 832.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box27" parent="Field/Row29" instance=ExtResource("2_jf5ke")]
 offset_left = 832.0
 offset_top = -32.0
 offset_right = 864.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box28" parent="Field/Row29" instance=ExtResource("2_jf5ke")]
 offset_left = 864.0
 offset_top = -32.0
 offset_right = 896.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box29" parent="Field/Row29" instance=ExtResource("2_jf5ke")]
 offset_left = 896.0
 offset_top = -32.0
 offset_right = 928.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box30" parent="Field/Row29" instance=ExtResource("2_jf5ke")]
 offset_left = 928.0
 offset_top = -32.0
 offset_right = 960.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box31" parent="Field/Row29" instance=ExtResource("2_jf5ke")]
 offset_left = 960.0
 offset_top = -32.0
 offset_right = 992.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box32" parent="Field/Row29" instance=ExtResource("2_jf5ke")]
 offset_left = 992.0
 offset_top = -32.0
 offset_right = 1024.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box33" parent="Field/Row29" instance=ExtResource("2_jf5ke")]
 offset_left = 1024.0
 offset_top = -32.0
 offset_right = 1056.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box34" parent="Field/Row29" instance=ExtResource("2_jf5ke")]
 offset_left = 1056.0
 offset_top = -32.0
 offset_right = 1088.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box35" parent="Field/Row29" instance=ExtResource("2_jf5ke")]
 offset_left = 1088.0
 offset_top = -32.0
 offset_right = 1120.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box36" parent="Field/Row29" instance=ExtResource("2_jf5ke")]
 offset_left = 1120.0
 offset_top = -32.0
 offset_right = 1152.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box37" parent="Field/Row29" instance=ExtResource("2_jf5ke")]
 offset_left = 1152.0
 offset_top = -32.0
 offset_right = 1184.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box38" parent="Field/Row29" instance=ExtResource("2_jf5ke")]
 offset_left = 1184.0
 offset_top = -32.0
 offset_right = 1216.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box39" parent="Field/Row29" instance=ExtResource("2_jf5ke")]
 offset_left = 1216.0
 offset_top = -32.0
 offset_right = 1248.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box40" parent="Field/Row29" instance=ExtResource("2_jf5ke")]
 offset_left = 1248.0
 offset_top = -32.0
 offset_right = 1280.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Row30" type="Node2D" parent="Field"]
 position = Vector2(320, 120)
@@ -7197,120 +7778,143 @@ offset_left = 640.0
 offset_top = -32.0
 offset_right = 672.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box22" parent="Field/Row30" instance=ExtResource("2_jf5ke")]
 offset_left = 672.0
 offset_top = -32.0
 offset_right = 704.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box23" parent="Field/Row30" instance=ExtResource("2_jf5ke")]
 offset_left = 704.0
 offset_top = -32.0
 offset_right = 736.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box24" parent="Field/Row30" instance=ExtResource("2_jf5ke")]
 offset_left = 736.0
 offset_top = -32.0
 offset_right = 768.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box25" parent="Field/Row30" instance=ExtResource("2_jf5ke")]
 offset_left = 768.0
 offset_top = -32.0
 offset_right = 800.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box26" parent="Field/Row30" instance=ExtResource("2_jf5ke")]
 offset_left = 800.0
 offset_top = -32.0
 offset_right = 832.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box27" parent="Field/Row30" instance=ExtResource("2_jf5ke")]
 offset_left = 832.0
 offset_top = -32.0
 offset_right = 864.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box28" parent="Field/Row30" instance=ExtResource("2_jf5ke")]
 offset_left = 864.0
 offset_top = -32.0
 offset_right = 896.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box29" parent="Field/Row30" instance=ExtResource("2_jf5ke")]
 offset_left = 896.0
 offset_top = -32.0
 offset_right = 928.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box30" parent="Field/Row30" instance=ExtResource("2_jf5ke")]
 offset_left = 928.0
 offset_top = -32.0
 offset_right = 960.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box31" parent="Field/Row30" instance=ExtResource("2_jf5ke")]
 offset_left = 960.0
 offset_top = -32.0
 offset_right = 992.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box32" parent="Field/Row30" instance=ExtResource("2_jf5ke")]
 offset_left = 992.0
 offset_top = -32.0
 offset_right = 1024.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box33" parent="Field/Row30" instance=ExtResource("2_jf5ke")]
 offset_left = 1024.0
 offset_top = -32.0
 offset_right = 1056.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box34" parent="Field/Row30" instance=ExtResource("2_jf5ke")]
 offset_left = 1056.0
 offset_top = -32.0
 offset_right = 1088.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box35" parent="Field/Row30" instance=ExtResource("2_jf5ke")]
 offset_left = 1088.0
 offset_top = -32.0
 offset_right = 1120.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box36" parent="Field/Row30" instance=ExtResource("2_jf5ke")]
 offset_left = 1120.0
 offset_top = -32.0
 offset_right = 1152.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box37" parent="Field/Row30" instance=ExtResource("2_jf5ke")]
 offset_left = 1152.0
 offset_top = -32.0
 offset_right = 1184.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box38" parent="Field/Row30" instance=ExtResource("2_jf5ke")]
 offset_left = 1184.0
 offset_top = -32.0
 offset_right = 1216.0
 offset_bottom = 0.0
+team = 1
+victory = true
 
 [node name="Box39" parent="Field/Row30" instance=ExtResource("2_jf5ke")]
 offset_left = 1216.0
 offset_top = -32.0
 offset_right = 1248.0
 offset_bottom = 0.0
+team = 1
+victory = true
 
 [node name="Box40" parent="Field/Row30" instance=ExtResource("2_jf5ke")]
 offset_left = 1248.0
 offset_top = -32.0
 offset_right = 1280.0
 offset_bottom = 0.0
+team = 1
+victory = true
 
 [node name="Row31" type="Node2D" parent="Field"]
 position = Vector2(320, 88)
@@ -7440,108 +8044,127 @@ offset_left = 640.0
 offset_top = -32.0
 offset_right = 672.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box22" parent="Field/Row31" instance=ExtResource("2_jf5ke")]
 offset_left = 672.0
 offset_top = -32.0
 offset_right = 704.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box23" parent="Field/Row31" instance=ExtResource("2_jf5ke")]
 offset_left = 704.0
 offset_top = -32.0
 offset_right = 736.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box24" parent="Field/Row31" instance=ExtResource("2_jf5ke")]
 offset_left = 736.0
 offset_top = -32.0
 offset_right = 768.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box25" parent="Field/Row31" instance=ExtResource("2_jf5ke")]
 offset_left = 768.0
 offset_top = -32.0
 offset_right = 800.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box26" parent="Field/Row31" instance=ExtResource("2_jf5ke")]
 offset_left = 800.0
 offset_top = -32.0
 offset_right = 832.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box27" parent="Field/Row31" instance=ExtResource("2_jf5ke")]
 offset_left = 832.0
 offset_top = -32.0
 offset_right = 864.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box28" parent="Field/Row31" instance=ExtResource("2_jf5ke")]
 offset_left = 864.0
 offset_top = -32.0
 offset_right = 896.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box29" parent="Field/Row31" instance=ExtResource("2_jf5ke")]
 offset_left = 896.0
 offset_top = -32.0
 offset_right = 928.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box30" parent="Field/Row31" instance=ExtResource("2_jf5ke")]
 offset_left = 928.0
 offset_top = -32.0
 offset_right = 960.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box31" parent="Field/Row31" instance=ExtResource("2_jf5ke")]
 offset_left = 960.0
 offset_top = -32.0
 offset_right = 992.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box32" parent="Field/Row31" instance=ExtResource("2_jf5ke")]
 offset_left = 992.0
 offset_top = -32.0
 offset_right = 1024.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box33" parent="Field/Row31" instance=ExtResource("2_jf5ke")]
 offset_left = 1024.0
 offset_top = -32.0
 offset_right = 1056.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box34" parent="Field/Row31" instance=ExtResource("2_jf5ke")]
 offset_left = 1056.0
 offset_top = -32.0
 offset_right = 1088.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box35" parent="Field/Row31" instance=ExtResource("2_jf5ke")]
 offset_left = 1088.0
 offset_top = -32.0
 offset_right = 1120.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box36" parent="Field/Row31" instance=ExtResource("2_jf5ke")]
 offset_left = 1120.0
 offset_top = -32.0
 offset_right = 1152.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box37" parent="Field/Row31" instance=ExtResource("2_jf5ke")]
 offset_left = 1152.0
 offset_top = -32.0
 offset_right = 1184.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box38" parent="Field/Row31" instance=ExtResource("2_jf5ke")]
 offset_left = 1184.0
 offset_top = -32.0
 offset_right = 1216.0
 offset_bottom = 0.0
+team = 1
+victory = true
 
 [node name="Box39" parent="Field/Row31" instance=ExtResource("2_jf5ke")]
 offset_left = 1216.0
@@ -7687,108 +8310,127 @@ offset_left = 640.0
 offset_top = -32.0
 offset_right = 672.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box22" parent="Field/Row32" instance=ExtResource("2_jf5ke")]
 offset_left = 672.0
 offset_top = -32.0
 offset_right = 704.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box23" parent="Field/Row32" instance=ExtResource("2_jf5ke")]
 offset_left = 704.0
 offset_top = -32.0
 offset_right = 736.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box24" parent="Field/Row32" instance=ExtResource("2_jf5ke")]
 offset_left = 736.0
 offset_top = -32.0
 offset_right = 768.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box25" parent="Field/Row32" instance=ExtResource("2_jf5ke")]
 offset_left = 768.0
 offset_top = -32.0
 offset_right = 800.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box26" parent="Field/Row32" instance=ExtResource("2_jf5ke")]
 offset_left = 800.0
 offset_top = -32.0
 offset_right = 832.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box27" parent="Field/Row32" instance=ExtResource("2_jf5ke")]
 offset_left = 832.0
 offset_top = -32.0
 offset_right = 864.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box28" parent="Field/Row32" instance=ExtResource("2_jf5ke")]
 offset_left = 864.0
 offset_top = -32.0
 offset_right = 896.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box29" parent="Field/Row32" instance=ExtResource("2_jf5ke")]
 offset_left = 896.0
 offset_top = -32.0
 offset_right = 928.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box30" parent="Field/Row32" instance=ExtResource("2_jf5ke")]
 offset_left = 928.0
 offset_top = -32.0
 offset_right = 960.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box31" parent="Field/Row32" instance=ExtResource("2_jf5ke")]
 offset_left = 960.0
 offset_top = -32.0
 offset_right = 992.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box32" parent="Field/Row32" instance=ExtResource("2_jf5ke")]
 offset_left = 992.0
 offset_top = -32.0
 offset_right = 1024.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box33" parent="Field/Row32" instance=ExtResource("2_jf5ke")]
 offset_left = 1024.0
 offset_top = -32.0
 offset_right = 1056.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box34" parent="Field/Row32" instance=ExtResource("2_jf5ke")]
 offset_left = 1056.0
 offset_top = -32.0
 offset_right = 1088.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box35" parent="Field/Row32" instance=ExtResource("2_jf5ke")]
 offset_left = 1088.0
 offset_top = -32.0
 offset_right = 1120.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box36" parent="Field/Row32" instance=ExtResource("2_jf5ke")]
 offset_left = 1120.0
 offset_top = -32.0
 offset_right = 1152.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box37" parent="Field/Row32" instance=ExtResource("2_jf5ke")]
 offset_left = 1152.0
 offset_top = -32.0
 offset_right = 1184.0
 offset_bottom = 0.0
+team = 1
 
 [node name="Box38" parent="Field/Row32" instance=ExtResource("2_jf5ke")]
 offset_left = 1184.0
 offset_top = -32.0
 offset_right = 1216.0
 offset_bottom = 0.0
+team = 1
+victory = true
 
 [node name="Box39" parent="Field/Row32" instance=ExtResource("2_jf5ke")]
 offset_left = 1216.0

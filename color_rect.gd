@@ -8,14 +8,14 @@ extends ColorRect
 
 const COLORS = {
 	-1: Color.BLACK,
-	0:Color("4b6aff") ,  # red
-	1:   Color("ff4b4b") # blue
+	0: Color("4b6aff") ,  # red
+	1: Color("ff4b4b") # blue
 }
 
 const OUTLINES = {
 	-1: Color.WHITE,
-	0: Color("2b3c99") ,  # dark red
-	1:Color("a03333")   # dark blue
+	0: Color("2b3c99"),  # dark red
+	1: Color("a03333")   # dark blue
 }
 
 func _ready():
