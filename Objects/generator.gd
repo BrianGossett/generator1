@@ -21,7 +21,7 @@ func _ready():
 	max_x = ballBottomRight.position.x
 	min_y = ballBottomRight.position.y
 	max_y = ballTopLeft.position.y
-	BallSpawn(6)
+	BallSpawn(2)
 	
 func _process(_delta: float) -> void:
 	updateLables()

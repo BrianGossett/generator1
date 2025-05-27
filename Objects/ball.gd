@@ -1,6 +1,6 @@
 extends RigidBody2D
 
-var team: int = 0;
+@export var team: int = 0;
 @onready var colorRect: ColorRect = $BallView;
 
 func _ready():

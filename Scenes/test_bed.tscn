@@ -1,0 +1,102 @@
+[gd_scene load_steps=7 format=3 uid="uid://1auqq6y8tg33"]
+
+[ext_resource type="Script" uid="uid://bm4gvvaad5wo7" path="res://Scenes/test_bed.gd" id="1_20uel"]
+[ext_resource type="PackedScene" uid="uid://b01muifxx3t72" path="res://Objects/orb.tscn" id="1_l6hau"]
+[ext_resource type="PackedScene" uid="uid://sqpko26yo2gf" path="res://Objects/ball.tscn" id="2_45uj3"]
+[ext_resource type="Texture2D" uid="uid://ebfje4o4cqoh" path="res://Resorces/500px-chaos_star-svg_.webp" id="3_20uel"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_h5lxt"]
+size = Vector2(1556.25, 536)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_45uj3"]
+
+[node name="TestBed" type="Node2D"]
+script = ExtResource("1_20uel")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_left = -68.0
+offset_top = -29.0
+offset_right = 2029.0
+offset_bottom = 1155.0
+color = Color(0, 0, 0, 1)
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(948, 104)
+shape = SubResource("RectangleShape2D_h5lxt")
+
+[node name="StaticBody2D2" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D2"]
+position = Vector2(924, 1052)
+shape = SubResource("RectangleShape2D_h5lxt")
+
+[node name="StaticBody2D3" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D3"]
+position = Vector2(2283, 574)
+shape = SubResource("RectangleShape2D_h5lxt")
+
+[node name="StaticBody2D4" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D4"]
+position = Vector2(-481, 576)
+shape = SubResource("RectangleShape2D_h5lxt")
+
+[node name="Orb" parent="." instance=ExtResource("1_l6hau")]
+position = Vector2(492, 558)
+
+[node name="Orb2" parent="." instance=ExtResource("1_l6hau")]
+position = Vector2(669, 596)
+team = 1
+
+[node name="Orb3" parent="." instance=ExtResource("1_l6hau")]
+position = Vector2(780, 617)
+team = 2
+
+[node name="Orb4" parent="." instance=ExtResource("1_l6hau")]
+position = Vector2(869, 595)
+team = 3
+
+[node name="Orb5" parent="." instance=ExtResource("1_l6hau")]
+position = Vector2(971, 583)
+team = 4
+
+[node name="Orb6" parent="." instance=ExtResource("1_l6hau")]
+position = Vector2(1062, 575)
+team = 5
+
+[node name="Orb7" parent="." instance=ExtResource("1_l6hau")]
+position = Vector2(1140, 609)
+team = 6
+
+[node name="Orb8" parent="." instance=ExtResource("1_l6hau")]
+position = Vector2(1258, 613)
+team = 7
+
+[node name="Orb9" parent="." instance=ExtResource("1_l6hau")]
+position = Vector2(1354, 621)
+team = 8
+
+[node name="Orb10" parent="." instance=ExtResource("1_l6hau")]
+position = Vector2(570, 602)
+team = 9
+
+[node name="Ball" parent="." instance=ExtResource("2_45uj3")]
+position = Vector2(903, 588)
+team = 8
+
+[node name="Sprite2D" type="Sprite2D" parent="Ball"]
+scale = Vector2(0.05, 0.05)
+texture = ExtResource("3_20uel")
+
+[node name="StaticBody2D5" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D5"]
+position = Vector2(905, 615)
+shape = SubResource("RectangleShape2D_45uj3")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(902, 589)
+zoom = Vector2(1.5, 1.5)

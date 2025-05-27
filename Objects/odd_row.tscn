@@ -1,0 +1,17 @@
+[gd_scene load_steps=2 format=3 uid="uid://fjyxefaviv70"]
+
+[ext_resource type="PackedScene" uid="uid://bo61chu5rcf5g" path="res://Objects/peg.tscn" id="1_gpcn1"]
+
+[node name="OddRow" type="Node2D"]
+
+[node name="Peg2" parent="." instance=ExtResource("1_gpcn1")]
+position = Vector2(160, 0)
+scale = Vector2(1.5, 1.5)
+
+[node name="Peg" parent="." instance=ExtResource("1_gpcn1")]
+position = Vector2(90, 0)
+scale = Vector2(1.5, 1.5)
+
+[node name="Peg3" parent="." instance=ExtResource("1_gpcn1")]
+position = Vector2(230, 0)
+scale = Vector2(1.5, 1.5)
