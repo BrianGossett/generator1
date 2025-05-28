@@ -16,6 +16,8 @@ func _ready() -> void:
 		"top_left": -1,
 		"top_right": 1
 	})
+	gen1.BallSpawn(6)
+	gen2.BallSpawn(6)
 
 func fade_to_color(color: Color, duration := 1.5):
 	screen_fade.color = Color(0, 0, 0, 0)
