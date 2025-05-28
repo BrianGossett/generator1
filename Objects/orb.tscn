@@ -1,16 +1,13 @@
-[gd_scene load_steps=6 format=3 uid="uid://b01muifxx3t72"]
+[gd_scene load_steps=5 format=3 uid="uid://b01muifxx3t72"]
 
-[ext_resource type="Shader" uid="uid://y3xbq8y68q6f" path="res://Objects/circle.gdshader" id="1_brd2u"]
 [ext_resource type="Script" uid="uid://3pj7kgcbo0xq" path="res://Objects/orb.gd" id="1_fehja"]
+[ext_resource type="Texture2D" uid="uid://cc81xtk5amyp5" path="res://Resorces/circle.png" id="2_fehja"]
 
 [sub_resource type="Curve" id="Curve_fehja"]
 _data = [Vector2(0, 1), 0.0, 0.0, 0, 0, Vector2(0.746269, 0.629214), 0.0, 0.0, 0, 0, Vector2(0.910448, 0.0786518), 0.0, 0.0, 0, 0]
 point_count = 3
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_fehja"]
-
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_rbks0"]
-shader = ExtResource("1_brd2u")
 
 [node name="Orb" type="RigidBody2D" groups=["Orb"]]
 collision_layer = 2
@@ -25,15 +22,12 @@ end_cap_mode = 2
 [node name="OrbCollision" type="CollisionShape2D" parent="."]
 shape = SubResource("CircleShape2D_fehja")
 
-[node name="OrbColor" type="ColorRect" parent="."]
-material = SubResource("ShaderMaterial_rbks0")
-offset_left = -10.0
-offset_top = -10.0
-offset_right = 10.0
-offset_bottom = 10.0
-
 [node name="Timer" type="Timer" parent="."]
 wait_time = 10.0
 autostart = true
+
+[node name="OrbColor" type="Sprite2D" parent="."]
+scale = Vector2(0.08, 0.08)
+texture = ExtResource("2_fehja")
 
 [connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

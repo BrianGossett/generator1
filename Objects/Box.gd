@@ -29,8 +29,9 @@ func update_colors():
 func _on_box_area_body_entered(body: Node2D) -> void:
 	if(body.get_groups().has("Orb")):
 		if (body.team != team):
-			team = body.team
-			update_colors()
 			if (victory):
 				GameInfo.victory_value[team] = false
+				victory = false
+			team = body.team
+			update_colors()
 			body.queue_free()

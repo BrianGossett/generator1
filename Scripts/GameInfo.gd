@@ -1,5 +1,7 @@
 extends Node
 
+var has_winner := false
+
 # Team Constants
 const TEAM_RED       = 0
 const TEAM_BLUE      = 1

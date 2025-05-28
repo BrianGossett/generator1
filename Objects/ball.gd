@@ -1,13 +1,13 @@
 extends RigidBody2D
 
 @export var team: int = 0;
-@onready var colorRect: ColorRect = $BallView;
+@onready var ball_view: Sprite2D = $BallView;
 
 func _ready():
 	apply_team_color()
 
 func apply_team_color():
-	colorRect.color = GameInfo.team_color(team);
+	ball_view.modulate = GameInfo.team_color(team);
 
 func configure(team_name: int, bounce_value: float, gravity: float):
 	team = team_name

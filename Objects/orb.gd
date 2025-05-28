@@ -28,8 +28,7 @@ func configure(team_id: int, bounciness: float = 1.0) -> void:
 	material.bounce = bounciness
 	material.friction = 0
 	physics_material_override = material
-
-	set_linear_damp_mode(1)
+	linear_damp_mode = 1
 	gravity_scale = gravity
 	linear_damp = 0
 	angular_damp = 0
@@ -40,7 +39,7 @@ func configure(team_id: int, bounciness: float = 1.0) -> void:
 
 func update_visual() -> void:
 	var color = GameInfo.team_color(team)
-	$OrbColor.color = color
+	$OrbColor.modulate = color
 	color.a = 0.4
 	trail.default_color = color
 

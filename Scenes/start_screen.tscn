@@ -56,6 +56,7 @@ text = "Look thing
 layout_mode = 2
 text = "Quit"
 
+[connection signal="button_down" from="VBoxContainer/4FreeForAll" to="." method="_on_free_for_all_button_down"]
 [connection signal="button_down" from="VBoxContainer/1V1" to="." method="_on_start_button_button_down"]
 [connection signal="button_down" from="VBoxContainer/look thing" to="." method="_on_look_thing_button_down"]
 [connection signal="button_down" from="VBoxContainer/Quit" to="." method="_on_quit_button_down"]

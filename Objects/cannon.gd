@@ -37,8 +37,8 @@ func emit_orb(number: int, time: float, angle_spread: float = 0.0):
 		get_tree().current_scene.add_child(orb)
 
 		var direction = global_transform.x.normalized()
-		var angle_offset = randf_range(-angle_spread, angle_spread)
-		var randomized_direction = direction.rotated(angle_offset)
+		var fire_angle_offset = randf_range(-angle_spread, angle_spread)
+		var randomized_direction = direction.rotated(fire_angle_offset)
 
 		orb.launch(
 			$Fire_Point.global_position,
@@ -52,8 +52,9 @@ func emit_orb(number: int, time: float, angle_spread: float = 0.0):
 
 
 func _on_shoot_timer_timeout() -> void:
-	var has_loser := GameInfo.victory_value.values().has(false)
-	if GameInfo.fire_value[team] > 0 and !has_loser:
+	if !GameInfo.victory_value[team]:
+		queue_free()
+	if GameInfo.fire_value[team] > 0 and !GameInfo.has_winner:
 		if GameInfo.fire_value[team] > 1000:
 			emit_orb(15, 0.0075, 0.3)  # high speed = big spread
 		elif GameInfo.fire_value[team] > 100:

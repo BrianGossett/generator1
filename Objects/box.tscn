@@ -12,6 +12,13 @@ offset_right = 16.0
 offset_bottom = 16.0
 script = ExtResource("1_vwonl")
 
+[node name="BoxArea" type="Area2D" parent="."]
+collision_mask = 3
+
+[node name="BoxCol" type="CollisionShape2D" parent="BoxArea" groups=["Box"]]
+position = Vector2(16, 16)
+shape = SubResource("CircleShape2D_vwonl")
+
 [node name="InnerBox" type="ColorRect" parent="."]
 layout_mode = 0
 offset_left = 1.0
@@ -19,12 +26,5 @@ offset_top = 1.0
 offset_right = 31.0
 offset_bottom = 31.0
 color = Color(0, 0, 0, 0.941176)
-
-[node name="BoxArea" type="Area2D" parent="."]
-collision_mask = 3
-
-[node name="BoxCol" type="CollisionShape2D" parent="BoxArea" groups=["Box"]]
-position = Vector2(16, 16)
-shape = SubResource("CircleShape2D_vwonl")
 
 [connection signal="body_entered" from="BoxArea" to="." method="_on_box_area_body_entered"]
