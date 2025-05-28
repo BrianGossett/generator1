@@ -6,6 +6,10 @@ extends Node2D
 @onready var screen_fade = $ScreenFade
 @onready var vicotry_label = $Label
 
+func _input(event):
+	if event.is_action_pressed("ui_cancel"):
+		GameInfo.set_defult()
+		get_tree().change_scene_to_file("res://Scenes/start_screen.tscn")
 
 var has_winner := false
 
@@ -38,11 +42,17 @@ func _on_timer_timeout() -> void:
 
 
 func checkWin():
-	if has_winner:
+	if GameInfo.has_winner:
 		return
-	if !GameInfo.victory_value[0]:
-		has_winner = true
-		fade_to_color(GameInfo.team_color(0), 3)
-	elif !GameInfo.victory_value[1]:
-		has_winner = true
-		fade_to_color(GameInfo.team_color(1), 3)
+
+	var valid_teams = [0, 1]
+	var remaining_teams = []
+
+	for team in valid_teams:
+		if GameInfo.victory_value[team]:
+			remaining_teams.append(team)
+
+	if remaining_teams.size() == 1:
+		GameInfo.has_winner = true
+		var winning_team = remaining_teams[0]
+		fade_to_color(GameInfo.team_color(winning_team), 3)

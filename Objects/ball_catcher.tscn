@@ -1,0 +1,109 @@
+[gd_scene load_steps=8 format=3 uid="uid://oe5dw70wjfkw"]
+
+[ext_resource type="Script" uid="uid://csxpk57ucv32m" path="res://Objects/ball_catcher.gd" id="1_mr0if"]
+[ext_resource type="Texture2D" uid="uid://cc81xtk5amyp5" path="res://Resorces/circle.png" id="2_br1td"]
+[ext_resource type="Texture2D" uid="uid://ebfje4o4cqoh" path="res://Resorces/500px-chaos_star-svg_.webp" id="3_0nu7a"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_741g3"]
+size = Vector2(319.5, 12)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_mr0if"]
+size = Vector2(20, 60)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_2hv6u"]
+size = Vector2(141, 72)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_br1td"]
+size = Vector2(110, 71)
+
+[node name="BallCatcher" type="Node2D"]
+script = ExtResource("1_mr0if")
+
+[node name="MidDivider" type="StaticBody2D" parent="."]
+position = Vector2(0, 407)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="MidDivider"]
+position = Vector2(160.25, 6)
+shape = SubResource("RectangleShape2D_741g3")
+
+[node name="ColorRect" type="ColorRect" parent="MidDivider"]
+offset_left = 1.0
+offset_top = 1.0
+offset_right = 320.0
+offset_bottom = 12.0
+color = Color(0.393086, 0.393086, 0.393085, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="WallBody" type="StaticBody2D" parent="."]
+position = Vector2(166, 408)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="WallBody"]
+position = Vector2(10, -50)
+shape = SubResource("RectangleShape2D_mr0if")
+
+[node name="ColorRect" type="ColorRect" parent="WallBody"]
+offset_top = -80.0
+offset_right = 20.0
+offset_bottom = -20.0
+color = Color(0.393086, 0.393086, 0.393085, 1)
+metadata/_edit_use_anchors_ = true
+
+[node name="ChaosCircle" type="Sprite2D" parent="WallBody"]
+position = Vector2(10, -10)
+scale = Vector2(0.08, 0.08)
+texture = ExtResource("2_br1td")
+
+[node name="Sprite2D" type="Sprite2D" parent="WallBody/ChaosCircle"]
+scale = Vector2(0.625, 0.625)
+texture = ExtResource("3_0nu7a")
+
+[node name="ZoneX2" type="Area2D" parent="."]
+position = Vector2(25, 335)
+
+[node name="Score1Collision" type="CollisionShape2D" parent="ZoneX2"]
+position = Vector2(70.5, 36)
+shape = SubResource("RectangleShape2D_2hv6u")
+
+[node name="ColorRect" type="ColorRect" parent="ZoneX2"]
+modulate = Color(2, 2, 1, 1)
+offset_right = 141.0
+offset_bottom = 73.0
+color = Color(1, 1, 0, 0.862745)
+metadata/_edit_use_anchors_ = true
+
+[node name="Label" type="Label" parent="ZoneX2"]
+offset_right = 140.0
+offset_bottom = 71.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 50
+text = "x2"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="ZoneRelease" type="Area2D" parent="."]
+position = Vector2(186, 336)
+
+[node name="Score1Collision" type="CollisionShape2D" parent="ZoneRelease"]
+position = Vector2(54.5, 35.5)
+shape = SubResource("RectangleShape2D_br1td")
+
+[node name="ColorRect" type="ColorRect" parent="ZoneRelease"]
+modulate = Color(2, 0, 1.4, 1)
+offset_right = 110.0
+offset_bottom = 72.0
+color = Color(1, 0, 0.737255, 0.835294)
+metadata/_edit_use_anchors_ = true
+
+[node name="Label" type="Label" parent="ZoneRelease"]
+offset_right = 110.0
+offset_bottom = 71.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 50
+text = "R"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[connection signal="body_entered" from="ZoneX2" to="." method="_on_zone_x_2_body_entered"]
+[connection signal="body_entered" from="ZoneRelease" to="." method="_on_zone_release_body_entered"]

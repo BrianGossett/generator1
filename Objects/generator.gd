@@ -21,20 +21,27 @@ func _ready():
 	max_x = ballBottomRight.position.x
 	min_y = ballBottomRight.position.y
 	max_y = ballTopLeft.position.y
-	
+
 func _process(_delta: float) -> void:
 	updateLables()
 
 
+#func _on_zone_x2_triggered(body: Node) -> void:
 func _on_score_1_body_entered(body: Node2D) -> void:
+	zone_x2(body)
+
+func zone_x2(body: Node2D):
 	if(body.get_groups().has("Ball")):
 		GameInfo.bank_value[team] *= 2
 		updateLables()
 		body.queue_free()
 		call_deferred("BallSpawn", 1)
 
-
+#func _on_zone_release_triggered(body: Node) -> void:
 func _on_score_2_body_entered(body: Node2D) -> void:
+	zone_release(body)
+	
+func zone_release(body: Node2D):
 	if(body.get_groups().has("Ball")):
 		GameInfo.fire_value[team] += GameInfo.bank_value[team]
 		GameInfo.bank_value[team] = 2
@@ -57,3 +64,10 @@ func BallSpawn(number):
 func updateLables():
 	bank.text = str(GameInfo.bank_value[team])
 	fireValue.text = str(GameInfo.fire_value[team])
+
+
+func _on_ball_catcher_score_zone_triggered(zone_name: String, body: Node) -> void:
+	if zone_name == 'ZoneRelease':
+		zone_release(body)
+	if zone_name == 'ZoneX2':
+		zone_x2(body)

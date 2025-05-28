@@ -1,5 +1,9 @@
 extends Node2D
 
+func _input(event):
+	if event.is_action_pressed("ui_cancel"):
+		GameInfo.set_defult()
+		get_tree().change_scene_to_file("res://Scenes/start_screen.tscn")
 
 func _ready() -> void:
 	$Orb.launch_random(0)

@@ -97,6 +97,6 @@ func team_outline_color(team: int) -> Color:
 
 func set_defult():
 	for team in TEAMS:
-		bank_value[team] = 2
+		bank_value[team] = 2000
 		fire_value[team] = 0
 		victory_value[team] = true

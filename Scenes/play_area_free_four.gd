@@ -9,6 +9,10 @@ extends Node2D
 @onready var vicotry_label = $Label
 
 
+func _input(event):
+	if event.is_action_pressed("ui_cancel"):
+		GameInfo.set_defult()
+		get_tree().change_scene_to_file("res://Scenes/start_screen.tscn")
 
 func _ready() -> void:
 	$Field.apply_box_grid($Field.generate_grid_from_corners({

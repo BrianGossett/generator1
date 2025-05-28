@@ -8,7 +8,7 @@
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ybnwo"]
 size = Vector2(1283, 30)
 
-[node name="PlayArea" type="Node2D"]
+[node name="PlayAreaFreeFour" type="Node2D"]
 script = ExtResource("1_88uj3")
 
 [node name="Field" parent="." instance=ExtResource("2_ny7wt")]
@@ -27,7 +27,6 @@ team = 3
 [node name="CannonTopLeft" parent="." instance=ExtResource("3_8uopx")]
 position = Vector2(356, 65)
 rotation = 0.785398
-scale = Vector2(1, 1)
 
 [node name="CannonBottomRight" parent="." instance=ExtResource("3_8uopx")]
 position = Vector2(1564, 1014)
