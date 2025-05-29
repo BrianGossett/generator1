@@ -6,20 +6,21 @@ extends Node2D
 @onready var screen_fade = $ScreenFade
 @onready var vicotry_label = $Label
 
+@export var team_layout := {
+		"bottom_left": 0,
+		"bottom_right": -1,
+		"top_left": -1,
+		"top_right": 1
+	}
+
 func _input(event):
 	if event.is_action_pressed("ui_cancel"):
 		GameInfo.set_defult()
 		get_tree().change_scene_to_file("res://Scenes/start_screen.tscn")
 
-var has_winner := false
 
 func _ready() -> void:
-	$Field.generate_grid_from_corners({
-		"bottom_left": 0,
-		"bottom_right": -1,
-		"top_left": -1,
-		"top_right": 1
-	})
+	$Field.apply_box_grid($Field.generate_grid_from_corners(team_layout))
 	gen1.BallSpawn(6)
 	gen2.BallSpawn(6)
 
@@ -36,8 +37,10 @@ func _process(_delta) -> void:
 
 
 func _on_timer_timeout() -> void:
-	gen1.BallSpawn(2)
-	gen2.BallSpawn(2)
+	if GameInfo.victory_value[gen1.team]:
+		gen1.BallSpawn(2)
+	if GameInfo.victory_value[gen2.team]:
+		gen2.BallSpawn(2)
 
 
 

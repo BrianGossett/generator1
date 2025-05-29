@@ -1,4 +1,4 @@
-[gd_scene load_steps=5 format=3 uid="uid://b01muifxx3t72"]
+[gd_scene load_steps=6 format=3 uid="uid://b01muifxx3t72"]
 
 [ext_resource type="Script" uid="uid://3pj7kgcbo0xq" path="res://Objects/orb.gd" id="1_fehja"]
 [ext_resource type="Texture2D" uid="uid://cc81xtk5amyp5" path="res://Resorces/circle.png" id="2_fehja"]
@@ -8,6 +8,12 @@ _data = [Vector2(0, 1), 0.0, 0.0, 0, 0, Vector2(0.746269, 0.629214), 0.0, 0.0, 0
 point_count = 3
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_fehja"]
+
+[sub_resource type="Environment" id="Environment_fehja"]
+background_mode = 3
+glow_enabled = true
+glow_bloom = 0.3
+glow_hdr_luminance_cap = 78.5
 
 [node name="Orb" type="RigidBody2D" groups=["Orb"]]
 collision_layer = 2
@@ -29,5 +35,8 @@ autostart = true
 [node name="OrbColor" type="Sprite2D" parent="."]
 scale = Vector2(0.08, 0.08)
 texture = ExtResource("2_fehja")
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_fehja")
 
 [connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

@@ -39,7 +39,7 @@ func configure(team_id: int, bounciness: float = 1.0) -> void:
 
 func update_visual() -> void:
 	var color = GameInfo.team_color(team)
-	$OrbColor.modulate = color
+	$OrbColor.modulate = color * 2
 	color.a = 0.4
 	trail.default_color = color
 

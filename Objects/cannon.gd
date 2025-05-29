@@ -3,7 +3,7 @@ extends Node2D
 
 @export var team: int = 0;
 @export var rotation_speed: float = 0.25  # Controls speed of sweep
-@export var arc_angle_deg: float = 95.0  # Total arc in degrees
+@export var arc_angle_deg: float = 100.0  # Total arc in degrees
 @export var orb_scene: PackedScene = preload('res://Objects/orb.tscn') # assign res://Objects/ball.tscn in the Inspector
 
 var angle_offset := 0.0

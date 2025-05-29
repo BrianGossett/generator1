@@ -44,12 +44,11 @@ shape = SubResource("RectangleShape2D_mr0if")
 [node name="ColorRect" type="ColorRect" parent="WallBody"]
 offset_top = -80.0
 offset_right = 20.0
-offset_bottom = -20.0
 color = Color(0.393086, 0.393086, 0.393085, 1)
 metadata/_edit_use_anchors_ = true
 
 [node name="ChaosCircle" type="Sprite2D" parent="WallBody"]
-position = Vector2(10, -10)
+position = Vector2(10, 0)
 scale = Vector2(0.08, 0.08)
 texture = ExtResource("2_br1td")
 

@@ -3,9 +3,9 @@ extends Node2D
 @export var max_x2_height := 200
 @export var max_release_height := 200
 
-@export var min_x: float = 90
-@export var max_x: float = 180.0
-@export var transition_speed := .5  # Units per second
+@export var min_x: float = 85
+@export var max_x: float = 200.0
+@export var transition_speed := .1  # Units per second
 
 @onready var zone_x2 := $ZoneX2
 @onready var zone_release := $ZoneRelease
@@ -36,7 +36,7 @@ func _process(delta: float) -> void:
 	wall_body.position.x = clamp(wall_body.position.x + transition_speed * delta, min_x, max_x)
 
 	# Attach chaos circle to wall (with offset if needed)
-	chaos_circle.position = Vector2(10, -10)
+	chaos_circle.position = Vector2(10, 0)
 
 	# Calculate distances
 	var wall_offset = wall_body.position.x

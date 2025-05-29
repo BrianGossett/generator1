@@ -17,7 +17,7 @@ func _input(event):
 func _ready() -> void:
 	$Field.apply_box_grid($Field.generate_grid_from_corners({
 		"bottom_left": 2,
-		"bottom_right": 6,
+		"bottom_right": 1,
 		"top_left": 0,
 		"top_right": 3
 	}))
@@ -29,8 +29,10 @@ func _ready() -> void:
 func fade_to_color(color: Color, duration := 1.5):
 	screen_fade.color = Color(0, 0, 0, 0)
 	vicotry_label.visible = true
-	vicotry_label.add_theme_color_override("font_color",color)
+	vicotry_label.modulate = color
 	screen_fade.visible = true
+	$Like.visible = true
+	$Like.add_theme_color_override("font_color", color)
 	var tween = create_tween()
 	tween.tween_property(screen_fade, "color:a", 1.0, duration)
 
@@ -39,10 +41,14 @@ func _process(_delta) -> void:
 
 
 func _on_timer_timeout() -> void:
-	gen1.BallSpawn(1)
-	gen2.BallSpawn(1)
-	gen3.BallSpawn(1)
-	gen4.BallSpawn(1)
+	if GameInfo.victory_value[gen1.team]:
+		gen1.BallSpawn(1)
+	if GameInfo.victory_value[gen2.team]:
+		gen2.BallSpawn(1)
+	if GameInfo.victory_value[gen3.team]:
+		gen3.BallSpawn(1)
+	if GameInfo.victory_value[gen4.team]:
+		gen4.BallSpawn(1)
 
 
 
@@ -50,7 +56,7 @@ func checkWin():
 	if GameInfo.has_winner:
 		return
 
-	var valid_teams = [0, 2, 3, 6]
+	var valid_teams = [0, 2, 3, 1]
 	var remaining_teams = []
 
 	for team in valid_teams:

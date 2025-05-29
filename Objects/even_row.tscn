@@ -5,17 +5,17 @@
 [node name="EvenRow" type="Node2D"]
 
 [node name="Peg2" parent="." instance=ExtResource("1_2cong")]
-position = Vector2(110, 0)
+position = Vector2(108, 0)
 scale = Vector2(1.5, 1.5)
 
 [node name="Peg" parent="." instance=ExtResource("1_2cong")]
-position = Vector2(25, 0)
+position = Vector2(23, 0)
 scale = Vector2(1.5, 1.5)
 
 [node name="Peg3" parent="." instance=ExtResource("1_2cong")]
-position = Vector2(300, 0)
+position = Vector2(298, 0)
 scale = Vector2(1.5, 1.5)
 
 [node name="Peg4" parent="." instance=ExtResource("1_2cong")]
-position = Vector2(210, 0)
+position = Vector2(208, 0)
 scale = Vector2(1.5, 1.5)

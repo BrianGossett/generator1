@@ -19,9 +19,9 @@ func set_victory(new_victory: bool):
 	update_colors()
 
 func update_colors():
-	fill.color = GameInfo.team_box_color(team)
+	#fill.color = GameInfo.team_box_color(team)
 	if victory:
-		outline.color = Color.GOLD
+		outline.color = Color.WHITE
 	else:
 		outline.color = GameInfo.team_outline_color(team)
 

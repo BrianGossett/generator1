@@ -9,9 +9,9 @@ position = Vector2(160, 0)
 scale = Vector2(1.5, 1.5)
 
 [node name="Peg" parent="." instance=ExtResource("1_gpcn1")]
-position = Vector2(90, 0)
+position = Vector2(80, 0)
 scale = Vector2(1.5, 1.5)
 
 [node name="Peg3" parent="." instance=ExtResource("1_gpcn1")]
-position = Vector2(230, 0)
+position = Vector2(240, 0)
 scale = Vector2(1.5, 1.5)

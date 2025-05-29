@@ -1,23 +1,32 @@
-[gd_scene load_steps=3 format=3 uid="uid://b00bly7rec4us"]
+[gd_scene load_steps=4 format=3 uid="uid://b00bly7rec4us"]
 
 [ext_resource type="Script" uid="uid://c32du6haq4sln" path="res://Objects/Box.gd" id="1_vwonl"]
 
-[sub_resource type="CircleShape2D" id="CircleShape2D_vwonl"]
-radius = 16.0
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_vwonl"]
+size = Vector2(30, 30)
+
+[sub_resource type="Environment" id="Environment_vwonl"]
+background_mode = 3
+glow_enabled = true
+glow_bloom = 0.3
+glow_hdr_luminance_cap = 78.5
 
 [node name="Box" type="ColorRect"]
+modulate = Color(3, 3, 3, 1)
 offset_left = -16.0
 offset_top = -16.0
 offset_right = 16.0
 offset_bottom = 16.0
+color = Color(0.682353, 0, 0, 1)
 script = ExtResource("1_vwonl")
+team = 0
 
 [node name="BoxArea" type="Area2D" parent="."]
 collision_mask = 3
 
 [node name="BoxCol" type="CollisionShape2D" parent="BoxArea" groups=["Box"]]
 position = Vector2(16, 16)
-shape = SubResource("CircleShape2D_vwonl")
+shape = SubResource("RectangleShape2D_vwonl")
 
 [node name="InnerBox" type="ColorRect" parent="."]
 layout_mode = 0
@@ -25,6 +34,9 @@ offset_left = 1.0
 offset_top = 1.0
 offset_right = 31.0
 offset_bottom = 31.0
-color = Color(0, 0, 0, 0.941176)
+color = Color(0, 0, 0, 1)
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_vwonl")
 
 [connection signal="body_entered" from="BoxArea" to="." method="_on_box_area_body_entered"]

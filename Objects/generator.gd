@@ -8,6 +8,9 @@ extends Node2D
 
 @export var team: int = 0;
 
+@onready var screen_fade = $ScreenFade
+@onready var Loss_label = $LossLabel
+
 var ballSpawner = preload("res://Objects/ball.tscn")
 
 var min_x
@@ -24,7 +27,18 @@ func _ready():
 
 func _process(_delta: float) -> void:
 	updateLables()
+	if !GameInfo.victory_value[team] and screen_fade != null:
+		fade_to_color(GameInfo.team_color(team))
 
+
+
+func fade_to_color(color: Color, duration := 1.5):
+	screen_fade.color = Color(0, 0, 0, 0)
+	Loss_label.visible = true
+	Loss_label.modulate = color
+	screen_fade.visible = true
+	var tween = create_tween()
+	tween.tween_property(screen_fade, "color:a", 1.0, duration)
 
 #func _on_zone_x2_triggered(body: Node) -> void:
 func _on_score_1_body_entered(body: Node2D) -> void:
@@ -35,7 +49,8 @@ func zone_x2(body: Node2D):
 		GameInfo.bank_value[team] *= 2
 		updateLables()
 		body.queue_free()
-		call_deferred("BallSpawn", 1)
+		if GameInfo.victory_value[team]:
+			call_deferred("BallSpawn", 1)
 
 #func _on_zone_release_triggered(body: Node) -> void:
 func _on_score_2_body_entered(body: Node2D) -> void:
@@ -47,7 +62,8 @@ func zone_release(body: Node2D):
 		GameInfo.bank_value[team] = 2
 		updateLables()
 		body.queue_free()
-		call_deferred("BallSpawn", 1)
+		if GameInfo.victory_value[team]:
+			call_deferred("BallSpawn", 1)
 
 
 func BallSpawn(number):

@@ -29,22 +29,22 @@ const TEAM_COLORS = {
 	TEAM_RED: {
 		"primary": Color("ff4b4b"),
 		"box": Color("ff9999"),
-		"outline": Color("a03333")
+		"outline": Color("ff0000")
 	},
 	TEAM_BLUE: {
 		"primary": Color("4b6aff"),
 		"box": Color("99bbff"),
-		"outline": Color("2b3c99")
+		"outline": Color(0,0,1)
 	},
 	TEAM_GREEN: {
 		"primary": Color("4bff4b"),
 		"box": Color("aaffaa"),
-		"outline": Color("339933")
+		"outline": Color(0,1,0) # green
 	},
 	TEAM_YELLOW: {
 		"primary": Color("ffff4b"),
 		"box": Color("ffffaa"),
-		"outline": Color("999933")
+		"outline": Color("ffff00") # change
 	},
 	TEAM_PURPLE: {
 		"primary": Color("b84bff"),
@@ -59,7 +59,7 @@ const TEAM_COLORS = {
 	TEAM_CYAN: {
 		"primary": Color("4bffff"),
 		"box": Color("aaffff"),
-		"outline": Color("339999")
+		"outline": Color(0,0,1) # change
 	},
 	TEAM_PINK: {
 		"primary": Color("ff4bb8"),
@@ -96,6 +96,7 @@ func team_outline_color(team: int) -> Color:
 	return TEAM_COLORS.get(team, TEAM_COLORS[-1])["outline"]
 
 func set_defult():
+	has_winner = false
 	for team in TEAMS:
 		bank_value[team] = 2
 		fire_value[team] = 0

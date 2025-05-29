@@ -1,9 +1,10 @@
-[gd_scene load_steps=6 format=3 uid="uid://dr60br1tc4fxb"]
+[gd_scene load_steps=7 format=3 uid="uid://dr60br1tc4fxb"]
 
 [ext_resource type="Script" uid="uid://dwxmwjwqxafq2" path="res://Scenes/play_area_free_four.gd" id="1_88uj3"]
 [ext_resource type="PackedScene" uid="uid://catppxguc7kox" path="res://Objects/field.tscn" id="2_ny7wt"]
 [ext_resource type="PackedScene" uid="uid://bmi2pr5jgtfxt" path="res://Objects/cannon.tscn" id="3_8uopx"]
 [ext_resource type="PackedScene" uid="uid://dgea1jbl8u36" path="res://Objects/generator4.tscn" id="4_88uj3"]
+[ext_resource type="Texture2D" uid="uid://ndch11btiigv" path="res://Resorces/Flag.webp" id="5_ny7wt"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ybnwo"]
 size = Vector2(1283, 30)
@@ -31,9 +32,10 @@ rotation = 0.785398
 [node name="CannonBottomRight" parent="." instance=ExtResource("3_8uopx")]
 position = Vector2(1564, 1014)
 rotation = 3.92699
-team = 6
+team = 1
 
 [node name="Camera2D" type="Camera2D" parent="."]
+physics_interpolation_mode = 2
 position = Vector2(962, 539)
 
 [node name="TopWall" type="StaticBody2D" parent="."]
@@ -77,7 +79,7 @@ team = 3
 
 [node name="GeneratorBottomRight" parent="." instance=ExtResource("4_88uj3")]
 position = Vector2(1600, 539)
-team = 6
+team = 1
 
 [node name="ScreenFade" type="ColorRect" parent="."]
 visible = false
@@ -87,14 +89,19 @@ offset_right = 1930.0
 offset_bottom = 1089.0
 color = Color(1, 1, 1, 0)
 
-[node name="Label" type="Label" parent="."]
+[node name="Label" type="Sprite2D" parent="."]
 visible = false
-offset_left = -1.0
-offset_top = -1.0
-offset_right = 1923.0
-offset_bottom = 1079.0
-theme_override_font_sizes/font_size = 200
-text = "Victory"
+position = Vector2(970, 540)
+texture = ExtResource("5_ny7wt")
+
+[node name="Like" type="Label" parent="."]
+visible = false
+offset_left = 3.0
+offset_top = 946.0
+offset_right = 1919.0
+offset_bottom = 1083.0
+theme_override_font_sizes/font_size = 100
+text = "Like and Subscribe"
 horizontal_alignment = 1
 vertical_alignment = 1
 
