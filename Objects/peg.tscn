@@ -3,6 +3,7 @@
 [ext_resource type="Texture2D" uid="uid://cc81xtk5amyp5" path="res://Resorces/circle.png" id="1_bx1ek"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_fo46k"]
+radius = 9.0
 
 [node name="Peg" type="StaticBody2D"]
 
@@ -11,5 +12,5 @@ shape = SubResource("CircleShape2D_fo46k")
 
 [node name="PegView" type="Sprite2D" parent="."]
 modulate = Color(0.392157, 0.392157, 0.392157, 1)
-scale = Vector2(0.08, 0.08)
+scale = Vector2(0.07, 0.07)
 texture = ExtResource("1_bx1ek")

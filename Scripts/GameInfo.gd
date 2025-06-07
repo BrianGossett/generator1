@@ -49,7 +49,7 @@ const TEAM_COLORS = {
 	TEAM_PURPLE: {
 		"primary": Color("b84bff"),
 		"box": Color("d199ff"),
-		"outline": Color("5a2d80")
+		"outline":Color(90 * 2.5 / 255.0, 45 * 2.5 / 255.0, 128 * 2.5 / 255.0)
 	},
 	TEAM_ORANGE: {
 		"primary": Color("ff994b"),
@@ -59,7 +59,7 @@ const TEAM_COLORS = {
 	TEAM_CYAN: {
 		"primary": Color("4bffff"),
 		"box": Color("aaffff"),
-		"outline": Color(0,0,1) # change
+		"outline": Color(.25,1.25,1.25) # change
 	},
 	TEAM_PINK: {
 		"primary": Color("ff4bb8"),

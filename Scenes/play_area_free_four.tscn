@@ -19,6 +19,7 @@ position = Vector2(320, 26)
 position = Vector2(357, 1013)
 rotation = -0.785398
 team = 2
+arc_angle_deg = 360.0
 
 [node name="CannonTopRight" parent="." instance=ExtResource("3_8uopx")]
 position = Vector2(1564, 65)

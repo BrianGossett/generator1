@@ -1,0 +1,113 @@
+[gd_scene load_steps=7 format=3 uid="uid://b650bxf2to8ei"]
+
+[ext_resource type="Script" uid="uid://b7mtfpk864y54" path="res://Scenes/play_area_6.gd" id="1_od0a5"]
+[ext_resource type="PackedScene" uid="uid://bmi2pr5jgtfxt" path="res://Objects/cannon.tscn" id="2_od0a5"]
+[ext_resource type="PackedScene" uid="uid://ch8puvh411grk" path="res://Objects/field_2.tscn" id="2_wm7hq"]
+[ext_resource type="PackedScene" uid="uid://dqpckphoxlgp0" path="res://Objects/gen_6.tscn" id="3_7ungt"]
+[ext_resource type="Texture2D" uid="uid://ndch11btiigv" path="res://Resorces/Flag.webp" id="4_i2d60"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_od0a5"]
+size = Vector2(1279, 1091)
+
+[node name="PlayArea6" type="Node2D"]
+script = ExtResource("1_od0a5")
+
+[node name="field2" parent="." instance=ExtResource("2_wm7hq")]
+position = Vector2(320, 0)
+
+[node name="PlayArea" type="Area2D" parent="."]
+position = Vector2(960, 540)
+
+[node name="PlayAreaCollision" type="CollisionShape2D" parent="PlayArea"]
+position = Vector2(-0.5, 2.5)
+shape = SubResource("RectangleShape2D_od0a5")
+
+[node name="CannonTopLeft" parent="." instance=ExtResource("2_od0a5")]
+position = Vector2(400, 180)
+arc_angle_deg = 120.0
+
+[node name="CannonMiddleLeft" parent="." instance=ExtResource("2_od0a5")]
+position = Vector2(400, 540)
+team = 2
+arc_angle_deg = 120.0
+
+[node name="CannonBottomLeft" parent="." instance=ExtResource("2_od0a5")]
+position = Vector2(400, 900)
+team = 4
+arc_angle_deg = 120.0
+
+[node name="CannonTopRight" parent="." instance=ExtResource("2_od0a5")]
+position = Vector2(1520, 180)
+rotation = 3.14159
+team = 1
+arc_angle_deg = 120.0
+
+[node name="CannonMiddleRight" parent="." instance=ExtResource("2_od0a5")]
+position = Vector2(1520, 540)
+rotation = 3.14159
+team = 3
+arc_angle_deg = 120.0
+
+[node name="CannonBottomRight" parent="." instance=ExtResource("2_od0a5")]
+position = Vector2(1522, 891)
+rotation = 3.14159
+team = 6
+arc_angle_deg = 120.0
+
+[node name="GenLeftTop" parent="." instance=ExtResource("3_7ungt")]
+
+[node name="GenLeftMiddle" parent="." instance=ExtResource("3_7ungt")]
+position = Vector2(0, 360)
+team = 2
+
+[node name="GenLeftBottom" parent="." instance=ExtResource("3_7ungt")]
+position = Vector2(0, 720)
+team = 4
+
+[node name="GenRightTop" parent="." instance=ExtResource("3_7ungt")]
+position = Vector2(1600, 0)
+team = 1
+
+[node name="GenRightMiddle" parent="." instance=ExtResource("3_7ungt")]
+position = Vector2(1600, 360)
+team = 3
+
+[node name="GenRightBottom" parent="." instance=ExtResource("3_7ungt")]
+position = Vector2(1600, 720)
+team = 6
+
+[node name="Camera2D" type="Camera2D" parent="."]
+physics_interpolation_mode = 2
+position = Vector2(960, 540)
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 180.0
+autostart = true
+
+[node name="ScreenFade" type="ColorRect" parent="."]
+visible = false
+offset_left = -17.0
+offset_top = -5.0
+offset_right = 1930.0
+offset_bottom = 1089.0
+color = Color(1, 1, 1, 0)
+
+[node name="Label" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(970, 540)
+texture = ExtResource("4_i2d60")
+
+[node name="Like" type="Label" parent="."]
+visible = false
+offset_left = 3.0
+offset_top = 946.0
+offset_right = 1919.0
+offset_bottom = 1083.0
+theme_override_font_sizes/font_size = 100
+text = "Like and Subscribe"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[connection signal="body_exited" from="PlayArea" to="." method="_on_play_area_body_exited"]
+[connection signal="body_shape_exited" from="PlayArea" to="." method="_on_play_area_body_shape_exited"]
+[connection signal="mouse_entered" from="PlayArea" to="." method="_on_play_area_mouse_entered"]

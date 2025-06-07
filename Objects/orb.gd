@@ -20,6 +20,15 @@ func _process(_delta: float) -> void:
 	for point in trail_points:
 		trail.add_point(point)
 
+func _physics_process(delta):
+	var screen_height := get_viewport_rect().size.y
+
+	if global_position.y < 0:
+		global_position.y = screen_height
+		trail_points = []
+	elif global_position.y > screen_height:
+		global_position.y = 0
+		trail_points = []
 
 func configure(team_id: int, bounciness: float = 1.0) -> void:
 	team = team_id

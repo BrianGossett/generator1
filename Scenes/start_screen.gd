@@ -20,4 +20,4 @@ func _on_options_button_down() -> void:
 
 
 func _on_v_2_button_down() -> void:
-	pass # Replace with function body.
+	get_tree().change_scene_to_file("res://Scenes/play_area_6.tscn") 
